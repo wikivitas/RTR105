@@ -1,10 +1,9 @@
 # RTR105
 ## Datormācība (pamatkurss) elektroniskā klade
 
-> Ieraksts1
+> 16.09.2020
 
-> ieraksts2
-ieraksts3
+##### Linux pamatkomandas
 
 - **quartus**   - to run the Quartus environment
 - **uname**     - to display information about the operating system
