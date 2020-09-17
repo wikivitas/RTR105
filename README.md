@@ -2,8 +2,8 @@
 ## Datormācība (pamatkurss) elektroniskā klade
 
 > 16.09.2020
-
-##### Linux pamatkomandas
+>
+> **Linux pamatkomandas**
 
 - **quartus**   - to run the Quartus environment
 - **uname**     - to display information about the operating system
