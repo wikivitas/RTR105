@@ -3,7 +3,7 @@
 
 Ieraksts1
 
-ieraksts2
+ieraksts2;
 ieraksts3
 
 - quartus   - to run the Quartus environment
