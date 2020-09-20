@@ -23,12 +23,12 @@
 
 | Key shortcut | Description |
 | :---: | :--- |
-| **Ctrl + Alt + T** | to run to the terminal |
-| **Alt + F2** | to go to the terminal |
-| **Ctrl + Alt + L** | to lock the screen |
-| **Ctrl + Alt + D** | to show the desktop |
-| **Win + Tab** or **Alt + Tab** | switching between running processes |
-| **Win + A** | to show the application menu |
+| **Ctrl + Alt + T** | *to run* to **the terminal** |
+| **Alt + F2** | *to go* to **the terminal** |
+| **Ctrl + Alt + L** | **to lock** the screen |
+| **Ctrl + Alt + D** | to show **the desktop** |
+| **Win + Tab** or **Alt + Tab** | **switching** between running processes |
+| **Win + A** | to show **the application menu** |
 | **Win + _arrow_** | to translate the application window to half of the window corresponding to the direction of the arrow pressed in the key combination |
-| **Win + Space** | to change the enter language |
-| **Ctrl + Q** | to close the application window |
+| **Win + Space** | to change **the enter language** |
+| **Ctrl + Q** | **to close** the application window |
