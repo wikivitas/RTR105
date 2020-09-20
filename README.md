@@ -17,7 +17,7 @@
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
 
-> **Linux pamatkomandas**
+> **Linux termināla pamatkomandas**
 
 - `quartus`   - to run the Quartus environment
 - `uname`     - to display information about the operating system
