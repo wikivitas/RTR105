@@ -12,7 +12,7 @@
 - `man uname` - to find out 'uname' command properties
 - `history`   - to review the commands entered before
 - `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
-- `man pwdv   - to find out 'pwd' command properties
+- `man pwd`   - to find out 'pwd' command properties
 - `pwd`       - to return an absolute (full) path
 - `cd`        - to go straight to the home folder
 - `cd ..`     - to move one directory up
@@ -23,7 +23,8 @@
 
 | Key shortcut | Description |
 | :---: | :--- |
-| **Ctrl + Alt + T** | to go to the terminal |
+| **Ctrl + Alt + T** | to run to the terminal |
+| **Alt + F2** | to go to the terminal |
 | **Ctrl + Alt + L** | to lock the screen |
 | **Ctrl + Alt + D** | to show the desktop |
 | **Win + Tab** or **Alt + Tab** | switching between running processes |
