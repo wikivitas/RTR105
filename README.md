@@ -20,6 +20,7 @@
 > **Linux termināla pamatkomandas**
 
 - `quartus`   - to run the Quartus environment
+- `sudo <command name>`     - execute command as superuser
 - `uname`     - to display information about the operating system
 - `whoami`    - to find out the type of user
 - `who`       - to find out authorization data of the current user
@@ -27,10 +28,11 @@
 - `history`   - to review the commands entered before
 - `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
 - `pwd`       - to return an absolute (full) path
-- `cd`        - to go to the path
+- `cd <path name>`        - to go to the path
 - `cd ..`     - to move one directory up
 - `ls`        - to view the contents of a directory
 - `ls -l`     - to view the contents of the catalog with additional information
+- `mkdir <directory name>`     - to create a directory
 
 > **Linux termināla īsinājumtaustiņi**
 
