@@ -18,3 +18,13 @@
 - **cd ..**     - to move one directory up
 - **ls**        - to view the contents of a directory
 - **ls -l**     - to view the contents of the catalog with additional information
+
+> **Linux īsinājumtaustiņi**
+
+- **Ctrl + Alt + T**                     - to go to the terminal
+- **Ctrl + Alt + L**                     - to lock the screen
+- **Ctrl + Alt + D**                     - to show the desktop
+- **Win + Tab** or **Alt + Tab**         - switching between running processes
+- **Win + A**                            - to show the application menu
+- **Win + _arrow_**                      - to translate the application window to half of the window corresponding to the direction of the arrow pressed in the key combination
+
