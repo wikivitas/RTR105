@@ -3,22 +3,6 @@
 
 #### 16.09.2020
 
-> **Linux pamatkomandas**
-
-- `quartus`   - to run the Quartus environment
-- `uname`     - to display information about the operating system
-- `whoami`    - to find out the type of user
-- `who`       - to find out authorization data of the current user
-- `man uname` - to find out 'uname' command properties
-- `history`   - to review the commands entered before
-- `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
-- `man pwd`   - to find out 'pwd' command properties
-- `pwd`       - to return an absolute (full) path
-- `cd`        - to go straight to the home folder
-- `cd ..`     - to move one directory up
-- `ls`        - to view the contents of a directory
-- `ls -l`     - to view the contents of the catalog with additional information
-
 > **Linux īsinājumtaustiņi**
 
 | Key shortcut | Description |
@@ -32,3 +16,29 @@
 | **Win + _arrow_** | to translate the application window to half of the window corresponding to the direction of the arrow pressed in the key combination |
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
+
+> **Linux pamatkomandas**
+
+- `quartus`   - to run the Quartus environment
+- `uname`     - to display information about the operating system
+- `whoami`    - to find out the type of user
+- `who`       - to find out authorization data of the current user
+- `man <command name>` - to find out the command properties
+- `history`   - to review the commands entered before
+- `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
+- `pwd`       - to return an absolute (full) path
+- `cd`        - to go to the path
+- `cd ..`     - to move one directory up
+- `ls`        - to view the contents of a directory
+- `ls -l`     - to view the contents of the catalog with additional information
+
+> **Linux termināla īsinājumtaustiņi**
+
+| Key shortcut | Description |
+| :---: | :--- |
+| 2x **TAB** | to find commands with similar names |
+| **Q** | to exit command description |
+| **Ctrl + L** | to clear the terminal |
+| **Ctrl + Shift + T** | to show the terminal tabs |
+| **Ctrl + Shift + _+_** | to zoom in |
+| **Ctrl + _-_** | to zoom out |
