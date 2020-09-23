@@ -30,7 +30,7 @@
 - `pwd`       - to return an absolute (full) path
 - `cd <path name>`   - to print a name of the current directory
 - `cd ..`     - to move one directory up
-- `cd ~`      - to move to the home directory
+- `cd ~` or `cd /` or `cd`      - to move to the home directory
 - `ls`        - to view list of the contents of a directory
 - `ls -l`     - to view list of the contents of the catalog with additional information
 - `ls -a`     - to view list of all the contents of a directory including hide files
