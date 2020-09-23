@@ -32,6 +32,7 @@
 - `cd ..`     - to move one directory up
 - `ls`        - to view the contents of a directory
 - `ls -l`     - to view the contents of the catalog with additional information
+-  ls -a      - to view all the contents of a directory including hide files
 - `mkdir <directory name>`     - to create a directory
 
 > **Linux termināla īsinājumtaustiņi**
