@@ -45,7 +45,7 @@
 - `hexdump -C <file name>`   - to show a content of the file by hexidecimal system
 - `mv <current file name> <new file name>` - to rename the exist file
 - `rm <file name>`  - to delete the exist file
-- `rm \*<path name>\*` - to delete the file group
+- `rm *<path name>*` - to delete the file group
 - `nano`  - to open the Nano notepad
 
 > **Linux termināla īsinājumtaustiņi**
