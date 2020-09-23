@@ -17,6 +17,17 @@
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
 
+> **Linux termināla īsinājumtaustiņi**
+
+| Key shortcut | Description |
+| :---: | :--- |
+| 2x **TAB** | to find commands with similar names |
+| **Q** | to exit command description |
+| **Ctrl + L** | to clear the terminal |
+| **Ctrl + Shift + T** | to show the terminal tabs |
+| **Ctrl + Shift + _+_** | to zoom in |
+| **Ctrl + _-_** | to zoom out |
+
 > **Linux termināla pamatkomandas**
 
 - `quartus`   - to run the Quartus environment
@@ -47,14 +58,3 @@
 - `rm <file name>`  - to delete the exist file
 - `rm *<path name>*` - to delete the file group
 - `nano`  - to open the Nano notepad
-
-> **Linux termināla īsinājumtaustiņi**
-
-| Key shortcut | Description |
-| :---: | :--- |
-| 2x **TAB** | to find commands with similar names |
-| **Q** | to exit command description |
-| **Ctrl + L** | to clear the terminal |
-| **Ctrl + Shift + T** | to show the terminal tabs |
-| **Ctrl + Shift + _+_** | to zoom in |
-| **Ctrl + _-_** | to zoom out |
