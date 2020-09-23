@@ -1,7 +1,7 @@
 # RTR105
 ## Datormācība (pamatkurss) elektroniskā klade
 
-#### 16.09.2020 un 23.09.2020
+#### 16.09.2020
 
 > **Linux īsinājumtaustiņi**
 
@@ -62,3 +62,20 @@
 - `nano`  - to open the Nano notepad
 
 - `../` or `~/` - the high part of the directory as part of the relative path
+
+#### 23.09.2020
+
+> **Skriptu rakstīšana**
+
+Nano skripta piemērs:
+```
+#!/bin/bash 
+
+mkdir EFG
+mkdir HIJ
+echo fghij > e.txt
+cat e.txt > EFG/f.txt
+mv EFG/f.txt HIJ/g.txt
+cd HIJ 
+rm ../EFG/f.txt
+```
