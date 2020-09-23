@@ -37,6 +37,7 @@
 - `ls -la`    - to view the contents of the catalog with additional information
 - `ls -lt`    - to view the contents of the catalog with change data
 - `mkdir <directory name>`     - to create a directory
+- `rmdir <directory name>`     - to delete a directory
 
 > **Linux termināla īsinājumtaustiņi**
 
