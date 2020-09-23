@@ -34,7 +34,8 @@
 - `ls`        - to view list of the contents of a directory
 - `ls -l`     - to view list of the contents of the catalog with additional information
 - `ls -a`     - to view list of all the contents of a directory including hide files
-- `ls -la`    - tto view the contents of the catalog with additional information
+- `ls -la`    - to view the contents of the catalog with additional information
+- `ls -lt`    - to view the contents of the catalog with change data
 - `mkdir <directory name>`     - to create a directory
 
 > **Linux termināla īsinājumtaustiņi**
