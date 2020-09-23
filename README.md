@@ -28,11 +28,17 @@
 - `history`   - to review the commands entered before
 - `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
 - `pwd`       - to return an absolute (full) path
-- `cd <path name>`        - to go to the path
+- `cd <path name>`   .                 .bashrc   Documents       .java      .oracle_jre_usage   .selected_editor            Videos            .xsession-errors
+ ..                .cache    Downloads       .local     Pictures            .ssh                        .viminfo          .xsession-errors.old
+ .altera.quartus   .config   .gconf          .matlab    .pki                .subversion                'VirtualBox VMs'
+ .bash_history     .dbus     .gnupg          .mozilla   .profile            .sudo_as_admin_successful   .wine
+ .bash_logout      Desktop   .ICEauthority   Music      Public              Templates                   .Xauthority
+      - to go to the path
 - `cd ..`     - to move one directory up
-- `ls`        - to view the contents of a directory
-- `ls -l`     - to view the contents of the catalog with additional information
--  ls -a      - to view all the contents of a directory including hide files
+- `ls`        - to view list of the contents of a directory
+- `ls -l`     - to view list of the contents of the catalog with additional information
+-  ls -a      - to view list of all the contents of a directory including hide files
+-  ls -la     - tto view the contents of the catalog with additional information
 - `mkdir <directory name>`     - to create a directory
 
 > **Linux termināla īsinājumtaustiņi**
