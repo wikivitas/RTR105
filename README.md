@@ -38,6 +38,9 @@
 - `ls -lt`    - to view the contents of the catalog with change data
 - `mkdir <directory name>`     - to create a directory
 - `rmdir <directory name>`     - to delete a directory
+- `touch <file name>`          - to create a file
+- `echo <string> > <file name>`     - to write a string to the exist file
+- `cat <file name>`   - to show a content of the file
 
 > **Linux termināla īsinājumtaustiņi**
 
