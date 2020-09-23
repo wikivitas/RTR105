@@ -1,9 +1,9 @@
 # RTR105
 ## Datormācība (pamatkurss) elektroniskā klade
 
-#### 16.09.2020
+### 16.09.2020
 
-> **Linux īsinājumtaustiņi**
+#### **Linux īsinājumtaustiņi**
 
 | Key shortcut | Description |
 | :---: | :--- |
@@ -17,7 +17,7 @@
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
 
-> **Linux termināla īsinājumtaustiņi**
+#### **Linux termināla īsinājumtaustiņi**
 
 | Key shortcut | Description |
 | :---: | :--- |
@@ -28,7 +28,7 @@
 | **Ctrl + Shift + _+_** | to zoom in |
 | **Ctrl + _-_** | to zoom out |
 
-> **Linux termināla pamatkomandas**
+#### **Linux termināla pamatkomandas**
 
 - `quartus`   - to run the Quartus environment
 - `sudo <command name>`     - execute command as superuser
@@ -63,9 +63,9 @@
 
 - `../` or `~/` - the high part of the directory as part of the relative path
 
-#### 23.09.2020
+### 23.09.2020
 
-> **Skriptu rakstīšana**
+#### **Skriptu rakstīšana**
 
 Nano skripta piemērs:
 ```
