@@ -30,7 +30,8 @@
 
 #### **Linux termināla pamatkomandas**
 
-- `quartus`   - to run the Quartus environment
+**General commands**
+
 - `sudo <command name>`     - execute command as superuser
 - `uname`     - to display information about the operating system
 - `whoami`    - to find out the type of user
@@ -38,6 +39,9 @@
 - `man <command name>` - to find out the command properties
 - `history`   - to review the commands entered before
 - `sh`        - is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file.
+
+**Working with directories**
+
 - `pwd`       - to return an absolute (full) path
 - `cd <path name>`   - to print a name of the current directory
 - `cd ..`     - to move one directory up
@@ -49,6 +53,9 @@
 - `ls -lt`    - to view the contents of the catalog with change data
 - `mkdir <directory name>`     - to create a directory
 - `rmdir <directory name>`     - to delete a directory
+
+**Working with files**
+
 - `touch <file name>`          - to create a file
 - `echo <string> > <file name>`     - to add a string to the exist file
 - `echo <string> >> <file name>`     - to write a new string to the exist file
@@ -58,7 +65,7 @@
 - `cp <current file directory> <new file directory>` - to copy the file
 - `rm <file name>`  - to delete the exist file
 - `rm *<path name>*` - to delete the file group
-- `whereis <command name>`
+- `whereis <command name>` - to display a message about the location of the source files
 - `nano`  - to open the Nano notepad
 
 - `../` or `~/` - the high part of the directory as part of the relative path
