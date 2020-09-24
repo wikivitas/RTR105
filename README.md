@@ -42,6 +42,7 @@
 
 **Working with directories**
 
+- `../` or `~/` - the high part of the directory as part of the relative path
 - `pwd`       - to return an absolute (full) path
 - `cd <path name>`   - to print a name of the current directory
 - `cd ..`     - to move one directory up
@@ -67,8 +68,6 @@
 - `rm *<path name>*` - to delete the file group
 - `whereis <command name>` - to display a message about the location of the source files
 - `nano`  - to open the Nano notepad
-
-- `../` or `~/` - the high part of the directory as part of the relative path
 
 ### 23.09.2020
 
