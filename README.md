@@ -69,6 +69,10 @@
 - `whereis <command name>` - to display a message about the location of the source files
 - `nano`  - to open the Nano notepad
 
+**Environmental variables**
+
+- `$PATH` - is an environmental variable ithat tells the shell which directories to search for executable files in response to commands issued by a user.
+
 ### 23.09.2020
 
 #### **Skriptu rakstīšana**
