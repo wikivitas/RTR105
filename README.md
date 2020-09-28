@@ -73,6 +73,8 @@
 
 - `$PATH` - is an environmental variable ithat tells the shell which directories to search for executable files in response to commands issued by a user.
 
+[https://www.tutorialspoint.com/unix/unix-special-variables.htm] All the Unix / Linux special variables
+
 ### 23.09.2020
 
 #### **Skriptu rakstīšana**
