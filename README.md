@@ -146,3 +146,15 @@ $
 - `git push origin master` - to push commit to the remote repository.
 
 ### **C valodas pamati**
+
+```
+#include<stdio.h>
+
+int main()
+ {
+ //to print "Hello World!" and go to the next string
+ printf("Hello World\n");
+ 
+ return 0; 
+}
+```
