@@ -100,6 +100,32 @@ cd HIJ                  # go to HIJ path
 rm ../EFG/f.txt         # delete file f.txt existing at EFG directory
 ```
 
+Šis skripts izmanto komandu read, kas ņem ievadi no tastatūras un piešķir to kā mainīgā PERSON vērtību un visbeidzot izdrukā to STDOUT.
+
+```
+#!/bin/sh
+
+# Author : Zara Ali
+# Copyright (c) Tutorialspoint.com
+# Script follows here:
+
+echo "What is your name?"
+read PERSON
+echo "Hello, $PERSON"
+Here is a sample run of the script −
+```
+
+Running a script:
+
+```
+$./test.sh
+What is your name?
+Zara Ali
+Hello, Zara Ali
+$
+```
+
+
 **Environmental variables**
 
 - `$PATH` - is an environmental variable ithat tells the shell which directories to search for executable files in response to commands issued by a user.
