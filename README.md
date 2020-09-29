@@ -86,8 +86,10 @@ Bash skripta piemērs:
 ```
 #!/bin/bash 
 
-# the first string of the script isn't a comment
-# it's a path of shell which will be using here
+:<<The first string of 
+the script isn't a comment
+It's a path of shell which 
+will be using here
 
 mkdir EFG               # to create EFG directory
 mkdir HIJ               # to create HIJ directory
