@@ -71,7 +71,11 @@
 
 ### 23.09.2020
 
-#### **Skriptu rakstīšana**
+#### **Nano teksta procesors. Skriptu rakstīšana**
+
+GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
+
+![image](https://www.tecmint.com/wp-content/uploads/2018/10/Create-New-File.png)
 
 Nano skripta piemērs:
 ```
