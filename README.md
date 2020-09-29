@@ -81,7 +81,7 @@ Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta
 
 - `nano <filename>`  - to create a new file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
 
-Nano skripta piemērs:
+Bash skripta piemērs:
 ```
 #!/bin/bash 
 
