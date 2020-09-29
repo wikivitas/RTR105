@@ -24,7 +24,7 @@
 | 2x **TAB** | to find commands with similar names |
 | **Q** | to exit command description |
 | **Ctrl + L** | to clear the terminal |
-| **Ctrl + Shift + T** | to show the terminal tabs |
+| **Ctrl + Shift + T** | to create a new terminal tab |
 | **Ctrl + Shift + _+_** | to zoom in |
 | **Ctrl + _-_** | to zoom out |
 
@@ -69,12 +69,6 @@
 - `whereis <command name>` - to display a message about the location of the source files
 - `nano`  - to open the Nano notepad
 
-**Environmental variables**
-
-- `$PATH` - is an environmental variable ithat tells the shell which directories to search for executable files in response to commands issued by a user.
-
-[All the Unix / Linux special variables](https://www.tutorialspoint.com/unix/unix-special-variables.htm)
-
 ### 23.09.2020
 
 #### **Skriptu rakstīšana**
@@ -91,3 +85,22 @@ mv EFG/f.txt HIJ/g.txt
 cd HIJ 
 rm ../EFG/f.txt
 ```
+
+**Environmental variables**
+
+- `$PATH` - is an environmental variable ithat tells the shell which directories to search for executable files in response to commands issued by a user.
+
+[All the Unix / Linux special variables](https://www.tutorialspoint.com/unix/unix-special-variables.htm)
+
+### 28.08.2020
+
+#### **Git komandas**
+
+- `git clone <URL>` - to copy files from the GitHub repository
+- `git add <filename>` - to start tracking a new file
+- `git commit -m  <text>` - create a commit comment
+- `git config --global user.name <login>` - to give name of git user who is globaly scoped
+- `git config --global user.email "example@email.com"` - to give email of git user who is globaly scoped
+- `git push origin master` - to push commit to the remote repository.
+
+#### **C valodas pamati**
