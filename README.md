@@ -4,9 +4,9 @@
 
 ## Klades saturs
 
-[16.09.2020](https://github.com/wikivitas/RTR105#16092020)
-[23.09.2020](https://github.com/wikivitas/RTR105#23092020)
-[28.09.2020](https://github.com/wikivitas/RTR105#28092020)
+- [16.09.2020](https://github.com/wikivitas/RTR105/blob/master/README.md#16092020)
+- [23.09.2020](https://github.com/wikivitas/RTR105/blob/master/README.md#23092020)
+- [28.09.2020](https://github.com/wikivitas/RTR105/blob/master/README.md#28092020)
 
 ## 16.09.2020
 
