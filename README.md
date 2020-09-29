@@ -67,7 +67,6 @@
 - `rm <file name>`  - to delete the exist file
 - `rm *<path name>*` - to delete the file group
 - `whereis <command name>` - to display a message about the location of the source files
-- `nano`  - to open the Nano notepad
 
 ### 23.09.2020
 
@@ -76,6 +75,11 @@
 GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 
 ![image](https://www.tecmint.com/wp-content/uploads/2018/10/Create-New-File.png)
+[URL of the image](https://www.tecmint.com/wp-content/uploads/2018/10/Create-New-File.png)
+
+Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta saturu, jāizmanto `nano` komandu:
+
+- `nano <filename>`  - to create a new file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
 
 Nano skripta piemērs:
 ```
