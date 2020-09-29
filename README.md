@@ -1,9 +1,10 @@
 # RTR105
-## Datormācība (pamatkurss) elektroniskā klade
 
-### 16.09.2020
+# Datormācība (pamatkurss) elektroniskā klade
 
-#### **Linux īsinājumtaustiņi**
+## 16.09.2020
+
+### **Linux īsinājumtaustiņi**
 
 | Key shortcut | Description |
 | :---: | :--- |
@@ -17,7 +18,7 @@
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
 
-#### **Linux termināla īsinājumtaustiņi**
+### **Linux termināla īsinājumtaustiņi**
 
 | Key shortcut | Description |
 | :---: | :--- |
@@ -28,7 +29,7 @@
 | **Ctrl + Shift + _+_** | to zoom in |
 | **Ctrl + _-_** | to zoom out |
 
-#### **Linux termināla pamatkomandas**
+### **Linux termināla pamatkomandas**
 
 **General commands**
 
@@ -68,9 +69,9 @@
 - `rm *<path name>*` - to delete the file group
 - `whereis <command name>` - to display a message about the location of the source files
 
-### 23.09.2020
+## 23.09.2020
 
-#### **Nano teksta procesors. Skriptu rakstīšana**
+### **Nano teksta procesors. Skriptu rakstīšana**
 
 GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 
@@ -132,9 +133,9 @@ $
 
 [All the Unix / Linux special variables](https://www.tutorialspoint.com/unix/unix-special-variables.htm)
 
-### 28.08.2020
+## 28.08.2020
 
-#### **Git komandas**
+### **Git komandas**
 
 - `git clone <URL>` - to copy files from the GitHub repository
 - `git add <filename>` - to start tracking a new file
@@ -143,4 +144,4 @@ $
 - `git config --global user.email "example@email.com"` - to give email of git user who is globaly scoped
 - `git push origin master` - to push commit to the remote repository.
 
-#### **C valodas pamati**
+### **C valodas pamati**
