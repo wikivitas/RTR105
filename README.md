@@ -14,7 +14,9 @@
 | **Ctrl + Alt + D** | to show **the desktop** |
 | **Win + Tab** or **Alt + Tab** | **switching** between running processes |
 | **Win + A** | to show **the application menu** |
-| **Win + _arrow_** | to translate the application window to half of the window corresponding to the direction of the arrow pressed in the key combination |
+| **Win + D** | to **hide/return** all windows |
+| **Win + ↑** | to show application window **in full screen** |
+| **Win + ↓** | **to reduce** window |
 | **Win + Space** | to change **the enter language** |
 | **Ctrl + Q** | **to close** the application window |
 
@@ -76,7 +78,6 @@
 GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 
 ![image](https://www.tecmint.com/wp-content/uploads/2018/10/Create-New-File.png)
-[URL of the image](https://www.tecmint.com/wp-content/uploads/2018/10/Create-New-File.png)
 
 Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta saturu, jāizmanto `nano` komandu:
 
