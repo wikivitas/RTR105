@@ -79,19 +79,23 @@ GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 
 Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta saturu, jāizmanto `nano` komandu:
 
-- `nano <filename>`  - to create a new file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
+- `nano`  - to open GNU Nano editor and work with text in a temple file which could be saved as new file by filename
+- `nano <filename>`  - to attach name to the temple file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
 
 Bash skripta piemērs:
 ```
 #!/bin/bash 
 
-mkdir EFG
-mkdir HIJ
-echo fghij > e.txt
-cat e.txt > EFG/f.txt
-mv EFG/f.txt HIJ/g.txt
-cd HIJ 
-rm ../EFG/f.txt
+# the first string of the script isn't a comment
+# it's a path of shell which will be using here
+
+mkdir EFG #to create EFG directory
+mkdir HIJ #to create HIJ directory
+echo fghij > e.txt #to add string 'fghij' at e.txt
+cat e.txt > EFG/f.txt #to write e.txt file content to EFG/f.txt
+mv EFG/f.txt HIJ/g.txt #to rename EFG/f.txt into HIJ/g.txt
+cd HIJ #go to HIJ path
+rm ../EFG/f.txt #delete file f.txt existing at EFG directory
 ```
 
 **Environmental variables**
