@@ -89,13 +89,13 @@ Bash skripta piemērs:
 # the first string of the script isn't a comment
 # it's a path of shell which will be using here
 
-mkdir EFG #to create EFG directory
-mkdir HIJ #to create HIJ directory
-echo fghij > e.txt #to add string 'fghij' at e.txt
-cat e.txt > EFG/f.txt #to write e.txt file content to EFG/f.txt
-mv EFG/f.txt HIJ/g.txt #to rename EFG/f.txt into HIJ/g.txt
-cd HIJ #go to HIJ path
-rm ../EFG/f.txt #delete file f.txt existing at EFG directory
+mkdir EFG               # to create EFG directory
+mkdir HIJ               # to create HIJ directory
+echo fghij > e.txt      # to add string 'fghij' at e.txt
+cat e.txt > EFG/f.txt   # to write e.txt file content to EFG/f.txt
+mv EFG/f.txt HIJ/g.txt  # to rename EFG/f.txt into HIJ/g.txt
+cd HIJ                  # go to HIJ path
+rm ../EFG/f.txt         # delete file f.txt existing at EFG directory
 ```
 
 **Environmental variables**
