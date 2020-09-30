@@ -134,7 +134,7 @@ $
 
 [All the Unix / Linux special variables](https://www.tutorialspoint.com/unix/unix-special-variables.htm)
 
-## 28.08.2020
+## 28.09.2020
 
 ### **Git komandas**
 
@@ -158,3 +158,10 @@ int main()
  return 0; 
 }
 ```
+
+## 30.09.2020
+
+### **ASCII. Skaitļošanas sistēmas**
+
+### **Iepazīšana ar C++ valodu**
+[iepazīšana ar C++ valodas pamatiem](http://cplusplus.com/)
