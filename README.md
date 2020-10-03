@@ -147,6 +147,7 @@ $
 
 ### **C valodas pamati**
 
+Kods, lai izvadītu rindu "Hello World!" uz ekrāna:
 ```
 #include<stdio.h>
 
@@ -165,3 +166,27 @@ int main()
 
 ### **Iepazīšana ar C++ valodu**
 [iepazīšana ar C++ valodas pamatiem](http://cplusplus.com/)
+
+"Hello World!" izvadīšana:
+
+```
+// my first program in C++
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello World!";
+}
+```
+
+Kods, lai saskaitītu 2 skaitļus:
+
+```
+int a, b, sum;
+     
+cin >> a;
+cin >> b;
+             
+sum = a + b;
+cout << sum << endl;
+```
