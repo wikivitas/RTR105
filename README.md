@@ -165,6 +165,70 @@ int main()
 
 ### **ASCII. Skaitļošanas sistēmas**
 
+```
+10 VS OX10
+0xF == 1111
+0xFF == 1111 1111
+0xFF - aizņem 1 baitu - divu ciparu hex skaitlis aizņem 1 baitu
+	attiecīgi	F			F
+			1111			1111
+			vecākais pusbaits	jaunākais pusbaits
+
+dec to bin:
+	123 (dec)	? (bin)
+	base: 10	base:  2
+123: 2 (base number) = 61 (1)	^
+61: 2 = 30 (1)			|
+30: 2 = 15 (0)			|
+15: 2 = 7 (1)			|
+7: 2 = 3 (1)			|
+3: 2 = 1(1)			|
+1: 2 = 0 (1) STOP		^
+-------------------------------------
+	123 (dec) =	1111011 (bin)
+	123 (dec) =	0111 1011 (bin)
+
+bin to dec:
+	0111 1011 (bin) = 2^6 + 2^5 + 2^4 + 2^3 + 2^1 + 2^0 = 64 + 32 + 16 + 8 + 2 + 1 = 123 (dec)
+jāpeiskaita 2-nieka pakāpes, sakot no LSB
+
+dec to hex:
+	123 (dec)	? (hex)
+	base: 10	base: 16
+123 : 16 (base number) = 7 (11)
+7 : 16 = 0 (7)
+------------------------------------
+	123 (dec) =	7B (hex)
+	123 (dec) ==	0x7B (hex)
+
+	11 (dec) = B (hex)
+
+hex to dec:
+	7B (hex)	? (dec)
+0x7B = 11*16^0 + 7*16^1 = 11 + 70 + 42 = 123
+	7B (hex) = 123 (dec)
+
+dec to oct
+oct to dec
+========================================================
+
+hex to bin:
+0xAF01 -> 1010 1111 0000 0001
+katrs hex cipars tiek aizstāts ar četru bitiem
+
+bin to hex:
+01010111010010100100 (bin)
+0101 0111 0100 1010 0100 (bin) -> 5 74 A4(hex) vai 0x574A4
+
+oct to bin:
+157 (oct) -> 0001 101 111
+katrs oct cipars tiek aizstāts ar trīm bitiem
+
+bin to oct:
+10101111001 (bin)
+010 101 111 001 (bin) -> 2571 (oct)
+```
+
 ### **Iepazīšana ar C++ valodu**
 [iepazīšana ar C++ valodas pamatiem](http://cplusplus.com/)
 
