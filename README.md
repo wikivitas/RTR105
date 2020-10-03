@@ -69,6 +69,7 @@
 - `cp <current file directory> <new file directory>` - to copy the file
 - `rm <file name>`  - to delete the exist file
 - `rm *<path name>*` - to delete the file group
+- `rm -RF *<path name>*` - to delete all the directory and its files
 - `whereis <command name>` - to display a message about the location of the source files
 
 ## 23.09.2020
