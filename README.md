@@ -248,10 +248,12 @@ Kods, lai saskaitītu 2 skaitļus:
 
 ```
 int a, b, sum;
-     
-cin >> a;
-cin >> b;
+
+int main(){     
+	cin >> a;
+	cin >> b;
              
-sum = a + b;
-cout << sum << endl;
+	sum = a + b;
+	cout << sum << endl;
+}
 ```
