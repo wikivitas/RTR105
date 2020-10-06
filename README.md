@@ -257,3 +257,6 @@ int main(){
 	cout << sum << endl;
 }
 ```
+
+## 07.10.2020
+### Datu tipi, manīgie, konstantes.
