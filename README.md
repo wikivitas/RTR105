@@ -71,6 +71,7 @@
 - `rm *<path name>*` - to delete the file group
 - `rm -RF *<path name>*` - to delete all the directory and its files
 - `whereis <command name>` - to display a message about the location of the source files
+- `chmod <attributes> <file name>` - to edit a permission attached to the exist file
 
 ## 23.09.2020
 
@@ -121,7 +122,8 @@ Here is a sample run of the script −
 Running a script:
 
 ```
-$./test.sh
+$ chmod +x test.sh
+./test.sh
 What is your name?
 Zara Ali
 Hello, Zara Ali
