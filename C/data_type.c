@@ -38,20 +38,20 @@ void main()
 	char mans_mainiigais = 45;
 	//centisimies izmantot mnemoniskus nosaukumus - nosaukum atspuguļo maināgā jēgu vai nolūku
 	a = 0x10;// ||||||||||    ||||||||||||||
-	printf("Konstantes a vērtība (laika momentā t4) ir: %d\n",a); // prognoze - 16;
-	printf("Konstantes a vērtība (laika momentā t4) ir: 0x%x\n",a); // prognoze - 10;
-	printf("Konstantes a vērtība (laika momentā t4) ir: %o(oct)\n",a); // prognoze - 20;
-	printf("Konstantes a vērtība (laika momentā t4) ir: %o(oct)\n",a); // prognoze - 20;
+	printf("Konstantes a vērtība (laika momentā t5) ir: %d\n",a); // prognoze - 16;
+	printf("Konstantes a vērtība (laika momentā t6) ir: 0x%x\n",a); // prognoze - 10;
+	printf("Konstantes a vērtība (laika momentā t7) ir: %o(oct)\n",a); // prognoze - 20;
+	printf("Konstantes a vērtība (laika momentā t8) ir: %o(oct)\n",a); // prognoze - 20;
 
 	a = 65;
-	printf("Konstantes a vērtība (laika momentā t4) ir: %d\n",a);
-	printf("Konstantes a vērtība (laika momentā t4) ir: 0x%x\n",a);
-	printf("Konstantes a vērtība (laika momentā t4) ir: %o(oct)\n",a);
+	printf("Konstantes a vērtība (laika momentā t9) ir: %d\n",a);
+	printf("Konstantes a vērtība (laika momentā t10) ir: 0x%x\n",a);
+	printf("Konstantes a vērtība (laika momentā t11) ir: %o(oct)\n",a);
 
 	a = 'k';
-	printf("Konstantes a vērtība (laika momentā t4) ir: %d\n",a);
-	printf("Konstantes a vērtība (laika momentā t4) ir: 0x%x\n",a);
-	printf("Konstantes a vērtība (laika momentā t4) ir: %o(oct)\n",a);
+	printf("Konstantes a vērtība (laika momentā t12) ir: %d\n",a);
+	printf("Konstantes a vērtība (laika momentā t13) ir: 0x%x\n",a);
+	printf("Konstantes a vērtība (laika momentā t14) ir: %o(oct)\n",a);
 	// 1 byte -< 256 numbers
 	// => without sign 0 ... 255
 	// => with sign -128 ... 0 .. 127
