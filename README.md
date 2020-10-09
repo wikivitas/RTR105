@@ -265,7 +265,7 @@ int main(){
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
-|`char`|	1 byte |	$- 2^{7}$ to $2^{7} - 1$ or $2^0 - 1$ to $2^8$ |
+|`char`|	1 byte | ![formula](https://render.githubusercontent.com/render/math?math= - 2^{7}) to 2^{7} - 1 or 2^0 - 1$ to 2^8 |
 |`unsigned char`|	1 byte |	0 to 255 |
 |`signed char`|	1 byte |	-128 to 127 |
 |`int`|	2 or 4 bytes |	-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647 |
