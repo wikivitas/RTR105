@@ -263,17 +263,18 @@ int main(){
 ## 07.10.2020
 ### Datu tipi, manīgie, konstantes.
 
-[1]: https://latex.codecogs.com/gif.latex?2%5E7
-[2]: https://latex.codecogs.com/gif.latex?2%5E0
+[7]: https://latex.codecogs.com/gif.latex?2%5E7
+[8]: https://latex.codecogs.com/gif.latex?2%5E8
+[0]: https://latex.codecogs.com/gif.latex?2%5E0%20-%201
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
-|`char`|	1 byte | - ![image][1] to ![image][1] - 1 *or* ![image][2] - 1 to 2^8 |
-|`unsigned char`|	1 byte |	![image][2] to 255 |
+|`char`|	1 byte | - ![image][7] to ![image][7] - 1 *or* ![image][0] to ![image][8] |
+|`unsigned char`|	1 byte |	![image][0] to 255 |
 |`signed char`|	1 byte |	-128 to 127 |
 |`int`|	2 or 4 bytes |	-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647 |
-|`unsigned int`|	2 or 4 bytes |	![image][2] to 65,535 or 0 to 4,294,967,295 |
+|`unsigned int`|	2 or 4 bytes |	![image][0] to 65,535 or 0 to 4,294,967,295 |
 |`short`|	2 bytes	| -32,768 to 32,767 |
-|`unsigned short`| 2 bytes |	![image][2] to 65,535 |
+|`unsigned short`| 2 bytes |	![image][0] to 65,535 |
 |`long`|	8 bytes |	-9223372036854775808 to 9223372036854775807 |
-|`unsigned long`|	8 bytes |	![image][2] to 18446744073709551615 |
+|`unsigned long`|	8 bytes |	![image][0] to 18446744073709551615 |
