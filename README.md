@@ -265,7 +265,7 @@ int main(){
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
-|`char`|	1 byte | $$- 2^7$$ to $$2^7 - 1$$ or <math>2^0 - 1</math> to <math>2^8</math> |
+|`char`|	1 byte | - ![image](https://latex.codecogs.com/gif.latex?2%5E7) to ![image](https://latex.codecogs.com/gif.latex?2%5E7) - 1 or 2^0 - 1 to 2^8 |
 |`unsigned char`|	1 byte |	0 to 255 |
 |`signed char`|	1 byte |	-128 to 127 |
 |`int`|	2 or 4 bytes |	-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647 |
