@@ -264,7 +264,11 @@ int main(){
 ### Datu tipi, manīgie, konstantes.
 
 [101]: https://latex.codecogs.com/gif.latex?-1
-[63]: https://latex.codecogs.com/gif.latex?2%5E63
+[64]: https://latex.codecogs.com/svg.latex?2^{64}
+[63]: https://latex.codecogs.com/svg.latex?2^{63}
+[31]: https://latex.codecogs.com/svg.latex?2^{31}
+[16]: https://latex.codecogs.com/svg.latex?2^{16}
+[15]: https://latex.codecogs.com/svg.latex?2^{16}
 [7]: https://latex.codecogs.com/gif.latex?2%5E7
 [8]: https://latex.codecogs.com/gif.latex?2%5E8
 [0]: https://latex.codecogs.com/gif.latex?2%5E0%20-%201
@@ -274,9 +278,9 @@ int main(){
 |`char`|	1 byte | - ![image][7] to ![image][7] ![image][101] *or* ![image][0] to ![image][8] ![image][101] |
 |`unsigned char`|	1 byte |	![image][0] to ![image][8] ![image][101] |
 |`signed char`|	1 byte |	- ![image][7] to ![image][7] ![image][101]  |
-|`int`|	2 or 4 bytes |	-32,768 to 32,767 ![image][101] or -2,147,483,648 to 2,147,483,647 ![image][101] |
-|`unsigned int`|	2 or 4 bytes |	![image][0] to 65,535 or ![image][0] to 4,294,967,295 |
-|`short`|	2 bytes	| -32,768 to 32,767 |
-|`unsigned short`| 2 bytes |	![image][0] to 65,535 ![image][101] |
+|`int`|	2 or 4 bytes |	![image][15] to ![image][15] ![image][101] or -![image][31] to ![image][31] ![image][101] |
+|`unsigned int`|	2 or 4 bytes |	![image][0] to ![image][16] ![image][101] or ![image][0] to 4,294,967,295 |
+|`short`|	2 bytes	| -![image][15] to ![image][15] ![image][101] |
+|`unsigned short`| 2 bytes |	![image][0] to ![image][16] ![image][101] |
 |`long`|	8 bytes |	-![image][63] to ![image][63] ![image][101] |
-|`unsigned long`|	8 bytes |	![image][0] to 18446744073709551615 ![image][101] |
+|`unsigned long`|	8 bytes |	![image][0] to ![image][64] ![image][101] |
