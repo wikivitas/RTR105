@@ -264,6 +264,7 @@ int main(){
 ### Datu tipi, manīgie, konstantes.
 
 [101]: https://latex.codecogs.com/gif.latex?-1
+[63]: https://latex.codecogs.com/gif.latex?2%5E63
 [7]: https://latex.codecogs.com/gif.latex?2%5E7
 [8]: https://latex.codecogs.com/gif.latex?2%5E8
 [0]: https://latex.codecogs.com/gif.latex?2%5E0%20-%201
@@ -277,5 +278,5 @@ int main(){
 |`unsigned int`|	2 or 4 bytes |	![image][0] to 65,535 or ![image][0] to 4,294,967,295 |
 |`short`|	2 bytes	| -32,768 to 32,767 |
 |`unsigned short`| 2 bytes |	![image][0] to 65,535 ![image][101] |
-|`long`|	8 bytes |	-9223372036854775808 to 9223372036854775807 ![image][101] |
+|`long`|	8 bytes |	-![image][63] to ![image][63] ![image][101] |
 |`unsigned long`|	8 bytes |	![image][0] to 18446744073709551615 ![image][101] |
