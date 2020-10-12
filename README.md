@@ -4,7 +4,7 @@
 
 ## Saturs
 
-[16.09.2020](https://github.com/wikivitas/RTR105#16092020) - Īsinājumtaustiņi. Linux termināla bash pamatkomandas.
+[16.09.2020](https://github.com/wikivitas/RTR105#16092020) - Īsinājumtaustiņi. Linux termināla bash pamatkomandas.</br>
 [23.09.2020](https://github.com/wikivitas/RTR105#23092020) - Nano teksta procesors. Skriptu rakstīšana.
 [28.09.2020](https://github.com/wikivitas/RTR105#28092020) - Git komandas. C valodas pamati.
 [30.09.2020](https://github.com/wikivitas/RTR105#30092020) - ASCII. Skaitļošanas sistēmas.
