@@ -3,7 +3,7 @@
 # Datormācība (pamatkurss) elektroniskā klade
 
 ## Saturs
-
+[1}: https://github.com/wikivitas/RTR105#rtr105
 [16.09.2020](https://github.com/wikivitas/RTR105#16092020) - Īsinājumtaustiņi. Linux termināla bash pamatkomandas.</br>
 [23.09.2020](https://github.com/wikivitas/RTR105#23092020) - Nano teksta procesors. Skriptu rakstīšana.</br>
 [28.09.2020](https://github.com/wikivitas/RTR105#28092020) - Git komandas. C valodas pamati.</br>
@@ -13,6 +13,7 @@
 ## 16.09.2020
 
 ### **Linux īsinājumtaustiņi**
+[Uz burtnīcas sākumu][1]
 
 | Key shortcut | Description |
 | :---: | :--- |
