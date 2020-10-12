@@ -11,9 +11,9 @@
 [07.10.2020](https://github.com/wikivitas/RTR105#07102020) - Datu tipi, manīgie, konstantes.</br>
 
 ## 16.09.2020
+[Atgriezties uz saturu][1]
 
 ### **Linux īsinājumtaustiņi**
-[Uz burtnīcas sākumu][1]
 
 | Key shortcut | Description |
 | :---: | :--- |
@@ -83,6 +83,7 @@
 - `chmod <attributes> <file name>` - to edit a permission attached to the exist file
 
 ## 23.09.2020
+[Atgriezties uz saturu][1]
 
 ### **Nano teksta procesors. Bash skriptu rakstīšana**
 
@@ -147,6 +148,7 @@ $
 [All the Unix / Linux special variables](https://www.tutorialspoint.com/unix/unix-special-variables.htm)
 
 ## 28.09.2020
+[Atgriezties uz saturu][1]
 
 ### **Git komandas**
 
@@ -173,6 +175,7 @@ int main()
 ```
 
 ## 30.09.2020
+[Atgriezties uz saturu][1]
 
 ### **ASCII. Skaitļošanas sistēmas**
 
@@ -270,6 +273,8 @@ int main(){
 ```
 
 ## 07.10.2020
+[Atgriezties uz saturu][1]
+
 ### Datu tipi, manīgie, konstantes.
 
 [101]: https://latex.codecogs.com/gif.latex?-1
