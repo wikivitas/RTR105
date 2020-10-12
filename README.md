@@ -2,6 +2,8 @@
 
 # Datormācība (pamatkurss) elektroniskā klade
 
+[16.09.2020](https://github.com/wikivitas/RTR105#16092020)
+
 ## 16.09.2020
 
 ### **Linux īsinājumtaustiņi**
