@@ -290,15 +290,15 @@ int main(){
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
-|`char`|	1 byte | - ![image][7] to (![image][7] ![image][101]) *or* ![image][0] to (![image][8] ![image][101]) |
-|`unsigned char`|	1 byte |	![image][0] to (![image][8] ![image][101]) |
+|`char`|	1 byte | - ![image][7] to (![image][7] ![image][101]) *or* (![image][0]) to (![image][8] ![image][101]) |
+|`unsigned char`|	1 byte |	(![image][0]) to (![image][8] ![image][101]) |
 |`signed char`|	1 byte |	- ![image][7] to (![image][7] ![image][101])  |
 |`int`|	2 or 4 bytes |	-![image][15] to (![image][15] ![image][101]) or -![image][31] to (![image][31] ![image][101]) |
-|`unsigned int`|	2 or 4 bytes |	![image][0] to (![image][16] ![image][101]) or ![image][0] to ![image][32] ![image][101]) |
+|`unsigned int`|	2 or 4 bytes |	(![image][0]) to (![image][16] ![image][101]) or (![image][0]) to (![image][32] ![image][101]) |
 |`short`|	2 bytes	| -![image][15] to (![image][15] ![image][101]) |
-|`unsigned short`| 2 bytes |	![image][0] to (![image][16] ![image][101]) |
+|`unsigned short`| 2 bytes |	(![image][0]) to (![image][16] ![image][101]) |
 |`long`|	8 bytes |	-![image][63] to (![image][63] ![image][101]) |
-|`unsigned long`|	8 bytes |	![image][0] to (![image][64] ![image][101]) |
+|`unsigned long`|	8 bytes |	(![image][0]) to (![image][64] ![image][101]) |
 
 To get the exact size of a type or a variable on a particular platform, you can use the sizeof operator. The expressions sizeof(type) yields the storage size of the object or type in bytes. Given below is an example to get the size of various type on a machine using different constant defined in limits.h header file −
 
