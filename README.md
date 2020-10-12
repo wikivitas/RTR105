@@ -2,7 +2,13 @@
 
 # Datormācība (pamatkurss) elektroniskā klade
 
-[16.09.2020](https://github.com/wikivitas/RTR105#16092020)
+## Saturs
+
+[16.09.2020](https://github.com/wikivitas/RTR105#16092020) - Īsinājumtaustiņi. Linux termināla bash pamatkomandas.
+[23.09.2020](https://github.com/wikivitas/RTR105#23092020) - Nano teksta procesors. Skriptu rakstīšana.
+[28.09.2020](https://github.com/wikivitas/RTR105#28092020) - Git komandas. C valodas pamati.
+[30.09.2020](https://github.com/wikivitas/RTR105#30092020) - ASCII. Skaitļošanas sistēmas.
+[07.10.2020](https://github.com/wikivitas/RTR105#07102020) - Datu tipi, manīgie, konstantes.
 
 ## 16.09.2020
 
@@ -33,7 +39,7 @@
 | **Ctrl + Shift + _+_** | to zoom in |
 | **Ctrl + _-_** | to zoom out |
 
-### **Linux termināla pamatkomandas**
+### **Linux termināla bash pamatkomandas**
 
 **General commands**
 
@@ -77,7 +83,7 @@
 
 ## 23.09.2020
 
-### **Nano teksta procesors. Skriptu rakstīšana**
+### **Nano teksta procesors. Bash skriptu rakstīšana**
 
 GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 
@@ -278,15 +284,15 @@ int main(){
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
-|`char`|	1 byte | - ![image][7] to ![image][7] ![image][101] *or* ![image][0] to ![image][8] ![image][101] |
-|`unsigned char`|	1 byte |	![image][0] to ![image][8] ![image][101] |
-|`signed char`|	1 byte |	- ![image][7] to ![image][7] ![image][101]  |
-|`int`|	2 or 4 bytes |	-![image][15] to ![image][15] ![image][101] or -![image][31] to ![image][31] ![image][101] |
-|`unsigned int`|	2 or 4 bytes |	![image][0] to ![image][16] ![image][101] or ![image][0] to ![image][32] ![image][101] |
-|`short`|	2 bytes	| -![image][15] to ![image][15] ![image][101] |
-|`unsigned short`| 2 bytes |	![image][0] to ![image][16] ![image][101] |
-|`long`|	8 bytes |	-![image][63] to ![image][63] ![image][101] |
-|`unsigned long`|	8 bytes |	![image][0] to ![image][64] ![image][101] |
+|`char`|	1 byte | - ![image][7] to (![image][7] ![image][101]) *or* ![image][0] to (![image][8] ![image][101]) |
+|`unsigned char`|	1 byte |	![image][0] to (![image][8] ![image][101]) |
+|`signed char`|	1 byte |	- ![image][7] to (![image][7] ![image][101])  |
+|`int`|	2 or 4 bytes |	-![image][15] to (![image][15] ![image][101]) or -![image][31] to (![image][31] ![image][101]) |
+|`unsigned int`|	2 or 4 bytes |	![image][0] to (![image][16] ![image][101]) or ![image][0] to ![image][32] ![image][101]) |
+|`short`|	2 bytes	| -![image][15] to (![image][15] ![image][101]) |
+|`unsigned short`| 2 bytes |	![image][0] to (![image][16] ![image][101]) |
+|`long`|	8 bytes |	-![image][63] to (![image][63] ![image][101]) |
+|`unsigned long`|	8 bytes |	![image][0] to (![image][64] ![image][101]) |
 
 To get the exact size of a type or a variable on a particular platform, you can use the sizeof operator. The expressions sizeof(type) yields the storage size of the object or type in bytes. Given below is an example to get the size of various type on a machine using different constant defined in limits.h header file −
 
