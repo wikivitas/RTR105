@@ -98,7 +98,7 @@ Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta
 - `nano <filename>`  - to attach name to the temple file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
 
 Bash skripta piemērs:
-```
+```Shell
 #!/bin/bash 
 
 :<<The first string of 
@@ -117,7 +117,7 @@ rm ../EFG/f.txt         # delete file f.txt existing at EFG directory
 
 Šis skripts izmanto komandu read, kas ņem ievadi no tastatūras un piešķir to kā mainīgā PERSON vērtību un visbeidzot izdrukā to STDOUT.
 
-```
+```Shell
 #!/bin/sh
 
 # Author : Zara Ali
@@ -163,7 +163,8 @@ $
 ### **C valodas pamati**
 
 Kods, lai izvadītu rindu "Hello World!" uz ekrāna:
-```
+
+```C
 #include<stdio.h>
 
 int main()
@@ -395,7 +396,7 @@ DBL_MIN      :   2.22507e-308
 Precision value: 6
 ```
 
-[source of the tutorial about C variable types](https://www.tutorialspoint.com/cprogramming/c_data_types.htm)
+[Source of the tutorial about C variable types](https://www.tutorialspoint.com/cprogramming/c_data_types.htm)
 
 ## 12.10.2020
 [Atgriezties uz saturu][1]
@@ -409,7 +410,7 @@ C supports all the basic arithmetic operators. The following table shows all the
 | :---: | :---: |
 |+|	adds two operands|
 |-|	subtract second operands from first|
-|_*_|	multiply two operand|
+|\*\|	multiply two operand|
 |/|	divide numerator by denominator|
 |%|	remainder of division|
 |++|	Increment operator - increases integer value by one|
@@ -433,7 +434,7 @@ C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 |Operator	|Description|	Example|
 | :---: | :---: | :---: |
 | &&	| Logical AND	| (a && b) is false|
-| _||_	| Logical OR	| (a _||_ b) is true|
+| \||\	| Logical OR	| (a \||\ b) is true|
 | !	| Logical NOT	| (!a) is false|
 
 **Bitwise operators**
@@ -442,14 +443,14 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 |Operator	|Description|
 | :---: | :---: |
 |& |	Bitwise AND|
-| _|_ |	Bitwise OR|
+| \|\ |	Bitwise OR|
 |^	|Bitwise exclusive OR|
 |<<	|left shift|
 |>>	|right shift|
 
 Now lets see truth table for bitwise &, | and ^
 
-|a	b|	a & b|	a _|_ b|	a ^ b|
+|a	b|	a & b|	a \|\ b|	a ^ b|
 | :---: | :---: | :---: | :---: |  :---: |
 |0|	0|	0|	0|	0|
 |0|	1|	0|	1|	1|
@@ -472,7 +473,7 @@ Assignment operators supported by C language are as follows.
 |=|	assigns values from right side operands to left side operand	| a=b|
 |+=|	adds right operand to the left operand and assign the result to left	| a+=b is same as a=a+b|
 |-=|	subtracts right operand from the left operand and assign the result to left operand	| a-=b is same as a=a-b|
-|_*=_|	mutiply left operand with the right operand and assign the result to left operand	| _a*=b_ is same as _a=a*b_|
+|\*=\|	mutiply left operand with the right operand and assign the result to left operand	| \a*=b\ is same as \ a=a * b \ |
 |/=|	divides left operand with the right operand and assign the result to left operand	| a/=b is same as a=a/b|
 |%=|	calculate modulus using two operands and assign the result to left operand	| a%=b is same as a=a%b|
 
@@ -482,4 +483,6 @@ Assignment operators supported by C language are as follows.
 | :---: | :---: | :---: |
 |sizeof	|Returns the size of an variable	| sizeof(x) return size of the variable x|
 |&	|Returns the address of an variable	| &x ; return address of the variable x|
-|_*_	|Pointer to a variable	| _*x_; will be pointer to a variable x|
+|\*\	|Pointer to a variable	| \*x\; will be pointer to a variable x|
+
+[Operators in C Language](https://www.studytonight.com/c/operators-in-c.php)
