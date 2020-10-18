@@ -249,7 +249,7 @@ bin to oct:
 
 "Hello World!" izvadīšana:
 
-```
+```C++
 // my first program in C++
 #include <iostream>
 
@@ -261,7 +261,7 @@ int main()
 
 Kods, lai saskaitītu 2 skaitļus:
 
-```
+```C++
 int a, b, sum;
 
 int main(){     
@@ -303,7 +303,7 @@ int main(){
 
 To get the exact size of a type or a variable on a particular platform, you can use the sizeof operator. The expressions sizeof(type) yields the storage size of the object or type in bytes. Given below is an example to get the size of various type on a machine using different constant defined in limits.h header file −
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -333,7 +333,7 @@ int main(int argc, char** argv) {
 
 When you compile and execute the above program, it produces the following result on Linux −
 
-```
+```C
 CHAR_BIT    :   8
 CHAR_MAX    :   127
 CHAR_MIN    :   -128
@@ -359,7 +359,7 @@ USHRT_MAX   :   65535
 
 The header file float.h defines macros that allow you to use these values and other details about the binary representation of real numbers in your programs. The following example prints the storage space taken by a float type and its range values −
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -383,7 +383,7 @@ int main(int argc, char** argv) {
 
 When you compile and execute the above program, it produces the following result on Linux −
 
-```
+```C
 Storage size for float : 4 
 FLT_MAX      :   3.40282e+38
 FLT_MIN      :   1.17549e-38
@@ -468,17 +468,17 @@ Assignment operators supported by C language are as follows.
 
 |Operator	Description	Example
 | :---: | :---: | :---: |
-|=|	assigns values from right side operands to left side operand	|a=b
-|+=|	adds right operand to the left operand and assign the result to left	|a+=b is same as a=a+b|
-|-=|	subtracts right operand from the left operand and assign the result to left operand	|a-=b is same as a=a-b|
-|_*=_|	mutiply left operand with the right operand and assign the result to left operand	|_a*=b_ is same as _a=a*b_|
-|/=|	divides left operand with the right operand and assign the result to left operand	|a/=b is same as a=a/b|
-|%=|	calculate modulus using two operands and assign the result to left operand	|a%=b is same as a=a%b|
+|=|	assigns values from right side operands to left side operand	| a=b|
+|+=|	adds right operand to the left operand and assign the result to left	| a+=b is same as a=a+b|
+|-=|	subtracts right operand from the left operand and assign the result to left operand	| a-=b is same as a=a-b|
+|_*=_|	mutiply left operand with the right operand and assign the result to left operand	| _a*=b_ is same as _a=a*b_|
+|/=|	divides left operand with the right operand and assign the result to left operand	| a/=b is same as a=a/b|
+|%=|	calculate modulus using two operands and assign the result to left operand	| a%=b is same as a=a%b|
 
 **Special operator**
 
 |Operator	|Description	|Example|
 | :---: | :---: | :---: |
-|sizeof	|Returns the size of an variable	|sizeof(x) return size of the variable x|
-|&	|Returns the address of an variable	|&x ; return address of the variable x|
-|_*_	|Pointer to a variable	|_*x_; will be pointer to a variable x|
+|sizeof	|Returns the size of an variable	| sizeof(x) return size of the variable x|
+|&	|Returns the address of an variable	| &x ; return address of the variable x|
+|_*_	|Pointer to a variable	| _*x_; will be pointer to a variable x|
