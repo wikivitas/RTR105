@@ -446,6 +446,7 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 |^	|Bitwise exclusive OR|
 |<<	|left shift|
 |>>	|right shift|
+
 Now lets see truth table for bitwise &, | and ^
 
 |a	b|	a & b|	a _|_ b|	a ^ b|
