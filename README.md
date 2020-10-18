@@ -333,7 +333,7 @@ int main(int argc, char** argv) {
 
 When you compile and execute the above program, it produces the following result on Linux −
 
-```C
+```
 CHAR_BIT    :   8
 CHAR_MAX    :   127
 CHAR_MIN    :   -128
@@ -383,7 +383,7 @@ int main(int argc, char** argv) {
 
 When you compile and execute the above program, it produces the following result on Linux −
 
-```C
+```
 Storage size for float : 4 
 FLT_MAX      :   3.40282e+38
 FLT_MIN      :   1.17549e-38
@@ -466,7 +466,7 @@ a >> b = 0000010
 Assignment Operators
 Assignment operators supported by C language are as follows.
 
-|Operator	Description	Example
+|Operator	|Description|	Example|
 | :---: | :---: | :---: |
 |=|	assigns values from right side operands to left side operand	| a=b|
 |+=|	adds right operand to the left operand and assign the result to left	| a+=b is same as a=a+b|
