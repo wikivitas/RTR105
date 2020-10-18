@@ -101,10 +101,12 @@ Bash skripta piemērs:
 ```Shell
 #!/bin/bash 
 
-:<<The first string of 
-the script isn't a comment
-It's a path of shell which 
-will be using here
+<< '1st comment'
+    The first string of 
+    the script isn't a comment
+    It's a path of shell which 
+    will be using here
+1st comment
 
 mkdir EFG               # to create EFG directory
 mkdir HIJ               # to create HIJ directory
@@ -451,7 +453,7 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 |<<	|left shift|
 |>>	|right shift|
 
-Now lets see truth table for bitwise &, | and ^
+Now lets see truth table for bitwise &, \| and ^
 
 |a | b|	a & b|	a \| b|	a ^ b|
 | :---: | :---: | :---: | :---: |  :---: |
