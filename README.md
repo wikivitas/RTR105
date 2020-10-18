@@ -410,7 +410,7 @@ C supports all the basic arithmetic operators. The following table shows all the
 | :---: | :---: |
 |+|	adds two operands|
 |-|	subtract second operands from first|
-| \*\ |	multiply two operand|
+| \* |	multiply two operand|
 |/|	divide numerator by denominator|
 |%|	remainder of division|
 |++|	Increment operator - increases integer value by one|
@@ -436,7 +436,7 @@ C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 |Operator	|Description|	Example|
 | :---: | :---: | :---: |
 | &&	| Logical AND	| (a && b) is false|
-| \||\	| Logical OR	| (a \||\ b) is true|
+| \||	| Logical OR	| (a \|| b) is true|
 | !	| Logical NOT	| (!a) is false|
 
 **Bitwise operators**
@@ -446,14 +446,14 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 |Operator	|Description|
 | :---: | :---: |
 |& |	Bitwise AND|
-| \|\ |	Bitwise OR|
+| \| |	Bitwise OR|
 |^	|Bitwise exclusive OR|
 |<<	|left shift|
 |>>	|right shift|
 
 Now lets see truth table for bitwise &, | and ^
 
-|a | b|	a & b|	a \|\ b|	a ^ b|
+|a | b|	a & b|	a \| b|	a ^ b|
 | :---: | :---: | :---: | :---: |  :---: |
 |0|	0|	0|	0|	0|
 |0|	1|	0|	1|	1|
@@ -464,10 +464,10 @@ The bitwise shift operator, shifts the bit value. The left operand specifies the
 
 Example :
 
-a = 0001000<\br>
-b = 2<\br>
-a << b = 0100000 <\br>
-a >> b = 0000010 <\br>
+a = 0001000</br>
+b = 2</br>
+a << b = 0100000 </br>
+a >> b = 0000010 </br>
 
 **Assignment Operators**
 
@@ -478,7 +478,7 @@ Assignment operators supported by C language are as follows.
 |=|	assigns values from right side operands to left side operand	| a=b|
 |+=|	adds right operand to the left operand and assign the result to left	| a+=b is same as a=a+b|
 |-=|	subtracts right operand from the left operand and assign the result to left operand	| a-=b is same as a=a-b|
-|\*=\|	mutiply left operand with the right operand and assign the result to left operand	| \a*=b\ is same as \ a=a * b \ |
+|\*=|	mutiply left operand with the right operand and assign the result to left operand	| \a*=b is same as \ a=a * b |
 |/=|	divides left operand with the right operand and assign the result to left operand	| a/=b is same as a=a/b|
 |%=|	calculate modulus using two operands and assign the result to left operand	| a%=b is same as a=a%b|
 
@@ -488,6 +488,6 @@ Assignment operators supported by C language are as follows.
 | :---: | :---: | :---: |
 |sizeof	|Returns the size of an variable	| sizeof(x) return size of the variable x|
 |&	|Returns the address of an variable	| &x ; return address of the variable x|
-|\*\	|Pointer to a variable	| \*x\; will be pointer to a variable x|
+|\*	|Pointer to a variable	| \*x; will be pointer to a variable x|
 
 [Operators in C Language](https://www.studytonight.com/c/operators-in-c.php)
