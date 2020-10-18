@@ -410,13 +410,14 @@ C supports all the basic arithmetic operators. The following table shows all the
 | :---: | :---: |
 |+|	adds two operands|
 |-|	subtract second operands from first|
-|\*\|	multiply two operand|
+| \*\ |	multiply two operand|
 |/|	divide numerator by denominator|
 |%|	remainder of division|
 |++|	Increment operator - increases integer value by one|
 |--|	Decrement operator - decreases integer value by one|
 
 **Relational operators**
+
 The following table shows all relation operators supported by C.
 
 |Operator	|Description|
@@ -429,6 +430,7 @@ The following table shows all relation operators supported by C.
 |<=	|Check if operand on left is smaller than or equal to right operand|
 
 **Logical operators**
+
 C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 
 |Operator	|Description|	Example|
@@ -438,6 +440,7 @@ C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 | !	| Logical NOT	| (!a) is false|
 
 **Bitwise operators**
+
 Bitwise operators perform manipulations of data at bit level. These operators also perform shifting of bits from right to left. Bitwise operators are not applied to float or double(These are datatypes, we will learn about them in the next tutorial).
 
 |Operator	|Description|
@@ -450,7 +453,7 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 
 Now lets see truth table for bitwise &, | and ^
 
-|a	b|	a & b|	a \|\ b|	a ^ b|
+|a | b|	a & b|	a \|\ b|	a ^ b|
 | :---: | :---: | :---: | :---: |  :---: |
 |0|	0|	0|	0|	0|
 |0|	1|	0|	1|	1|
@@ -461,12 +464,14 @@ The bitwise shift operator, shifts the bit value. The left operand specifies the
 
 Example :
 
-a = 0001000
-b = 2
-a << b = 0100000 
-a >> b = 0000010 
-Assignment Operators
-Assignment operators supported by C language are as follows.
+a = 0001000<\br>
+b = 2<\br>
+a << b = 0100000 <\br>
+a >> b = 0000010 <\br>
+
+**Assignment Operators**
+
+Assignment operators supported by C language are as follows. 
 
 |Operator	|Description|	Example|
 | :---: | :---: | :---: |
