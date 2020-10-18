@@ -9,6 +9,7 @@
 [28.09.2020](https://github.com/wikivitas/RTR105#28092020) - Git komandas. C valodas pamati.</br>
 [30.09.2020](https://github.com/wikivitas/RTR105#30092020) - ASCII. Skaitļošanas sistēmas.</br>
 [07.10.2020](https://github.com/wikivitas/RTR105#07102020) - Datu tipi, manīgie, konstantes.</br>
+[12.10.2020](https://github.com/wikivitas/RTR105#12102020) - Operātoru veidi.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -395,3 +396,88 @@ Precision value: 6
 ```
 
 [source of the tutorial about C variable types](https://www.tutorialspoint.com/cprogramming/c_data_types.htm)
+
+##12.10.2020
+[Atgriezties uz saturu][1]
+
+###Operātoru veidi
+
+**Arithmetic operators**
+C supports all the basic arithmetic operators. The following table shows all the basic arithmetic operators.
+
+|Operator	|Description|
+| :---: | :---: |
+|+|	adds two operands|
+|-|	subtract second operands from first|
+|_*_|	multiply two operand|
+|/|	divide numerator by denominator|
+|%|	remainder of division|
+|++|	Increment operator - increases integer value by one|
+|--|	Decrement operator - decreases integer value by one|
+
+**Relational operators**
+The following table shows all relation operators supported by C.
+
+|Operator	|Description|
+| :---: | :---: |
+|==	|Check if two operand are equal|
+|!=	|Check if two operand are not equal.|
+|>	|Check if operand on the left is greater than operand on the right|
+|<	|Check operand on the left is smaller than right operand|
+|>=	|check left operand is greater than or equal to right operand|
+|<=	|Check if operand on left is smaller than or equal to right operand|
+
+**Logical operators**
+C language supports following 3 logical operators. Suppose a = 1 and b = 0,
+
+|Operator	|Description|	Example|
+| :---: | :---: |
+|&&	|Logical AND	|(a && b) is false|
+|_||_	|Logical OR	|(a _||_ b) is true|
+|!	|Logical NOT	|(!a) is false|
+
+**Bitwise operators**
+Bitwise operators perform manipulations of data at bit level. These operators also perform shifting of bits from right to left. Bitwise operators are not applied to float or double(These are datatypes, we will learn about them in the next tutorial).
+
+|Operator	|Description|
+| :---: | :---: |
+|& |	Bitwise AND|
+| _|_ |	Bitwise OR|
+|^	|Bitwise exclusive OR|
+|<<	|left shift|
+|>>	|right shift|
+Now lets see truth table for bitwise &, | and ^
+
+|a	b|	a & b|	a _|_ b|	a ^ b|
+| :---: | :---: | :---: | :---: |  :---: |
+|0|	0|	0|	0|	0|
+|0|	1|	0|	1|	1|
+|1|	0|	0|	1|	1|
+|1|	1|	1|	1|	0|
+The bitwise shift operator, shifts the bit value. The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value have to be shifted. Both operands have the same precedence.
+
+Example :
+
+a = 0001000
+b = 2
+a << b = 0100000 
+a >> b = 0000010 
+Assignment Operators
+Assignment operators supported by C language are as follows.
+
+|Operator	Description	Example
+| :---: | :---: | :---: |
+|=|	assigns values from right side operands to left side operand	|a=b
+|+=|	adds right operand to the left operand and assign the result to left	|a+=b is same as a=a+b|
+|-=|	subtracts right operand from the left operand and assign the result to left operand	|a-=b is same as a=a-b|
+|_*=_|	mutiply left operand with the right operand and assign the result to left operand	|_a*=b_ is same as _a=a*b_|
+|/=|	divides left operand with the right operand and assign the result to left operand	|a/=b is same as a=a/b|
+|%=|	calculate modulus using two operands and assign the result to left operand	|a%=b is same as a=a%b|
+
+**Special operator**
+
+|Operator	|Description	|Example|
+| :---: | :---: | :---: |
+|sizeof	|Returns the size of an variable	|sizeof(x) return size of the variable x|
+|&	|Returns the address of an variable	|&x ; return address of the variable x|
+|_*_	|Pointer to a variable	|_*x_; will be pointer to a variable x|
