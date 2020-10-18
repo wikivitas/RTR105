@@ -397,10 +397,10 @@ Precision value: 6
 
 [source of the tutorial about C variable types](https://www.tutorialspoint.com/cprogramming/c_data_types.htm)
 
-##12.10.2020
+## 12.10.2020
 [Atgriezties uz saturu][1]
 
-###Operātoru veidi
+### Operātoru veidi
 
 **Arithmetic operators**
 C supports all the basic arithmetic operators. The following table shows all the basic arithmetic operators.
@@ -454,6 +454,7 @@ Now lets see truth table for bitwise &, | and ^
 |0|	1|	0|	1|	1|
 |1|	0|	0|	1|	1|
 |1|	1|	1|	1|	0|
+
 The bitwise shift operator, shifts the bit value. The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value have to be shifted. Both operands have the same precedence.
 
 Example :
