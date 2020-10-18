@@ -436,7 +436,7 @@ C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 |Operator	|Description|	Example|
 | :---: | :---: | :---: |
 | &&	| Logical AND	| (a && b) is false|
-| \||	| Logical OR	| (a \|| b) is true|
+| \|\|	| Logical OR	| (a \|\| b) is true|
 | !	| Logical NOT	| (!a) is false|
 
 **Bitwise operators**
@@ -478,7 +478,7 @@ Assignment operators supported by C language are as follows.
 |=|	assigns values from right side operands to left side operand	| a=b|
 |+=|	adds right operand to the left operand and assign the result to left	| a+=b is same as a=a+b|
 |-=|	subtracts right operand from the left operand and assign the result to left operand	| a-=b is same as a=a-b|
-|\*=|	mutiply left operand with the right operand and assign the result to left operand	| \a*=b is same as \ a=a * b |
+|\*=|	mutiply left operand with the right operand and assign the result to left operand	| a\*=b is same as a=a\*b |
 |/=|	divides left operand with the right operand and assign the result to left operand	| a/=b is same as a=a/b|
 |%=|	calculate modulus using two operands and assign the result to left operand	| a%=b is same as a=a%b|
 
