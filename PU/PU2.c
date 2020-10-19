@@ -19,7 +19,8 @@ int main(){
 	while(i!=n){ 
 		i++;b[i]=0;
 	}
-
+	
+	//bināru skaitļu izvadīšana uz ekranu
 	do{
 		printf("%d",b[i]);i--;
 	}while(i!=0);
