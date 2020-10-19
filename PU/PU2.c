@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<process.h>
+#include<stdlib.h>
 
 int main(){
 	char a; //a mainīgai ir char tips
