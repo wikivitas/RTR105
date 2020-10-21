@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void sort(int a,b,c, char s);
+
+int main(){
+  return 0;
+}
+
+void sort(int a,b,c, char s){
+  printf("Kārtošanas secība(A - augoša, D - dilstoša): ");
+  char s; scanf("%c",d);
+  if(){
+  }
+  if(){
+  
+  }
+  else(
+  
+  }
+}
