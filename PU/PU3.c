@@ -3,6 +3,8 @@
 void sort(int, int, int, char);
 
 int main(){
+  int a,b,c; char s;
+  sort(a,b,c,s);
   return 0;
 }
 
