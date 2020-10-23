@@ -10,6 +10,7 @@
 [30.09.2020](https://github.com/wikivitas/RTR105#30092020) - ASCII. Skaitļošanas sistēmas.</br>
 [07.10.2020](https://github.com/wikivitas/RTR105#07102020) - Datu tipi, manīgie, konstantes.</br>
 [12.10.2020](https://github.com/wikivitas/RTR105#12102020) - Operātoru veidi.</br>
+[21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -493,3 +494,75 @@ Assignment operators supported by C language are as follows.
 |\*	|Pointer to a variable	| \*x; will be pointer to a variable x|
 
 [Operators in C Language](https://www.studytonight.com/c/operators-in-c.php)
+
+## 21.10.2020
+[Atgriezties uz saturu][1]
+
+### Nosacījuma operatori
+
+![image](https://www.tutorialspoint.com/cprogramming/images/decision_making.jpg)
+
+Structure of *if* statement:
+
+```C
+if(boolean_expression) {
+   /* statement(s) will execute if the boolean expression is true */
+}
+```
+Structure of *if...else* statement:
+
+```C
+if(boolean_expression) {
+   /* statement(s) will execute if the boolean expression is true */
+} else {
+   /* statement(s) will execute if the boolean expression is false */
+}
+```
+Structure of *nested if* statement:
+
+```C
+if( boolean_expression 1) {
+
+   /* Executes when the boolean expression 1 is true */
+   if(boolean_expression 2) {
+      /* Executes when the boolean expression 2 is true */
+   }
+}
+```
+Structure of *switch* statement:
+
+```C
+switch(expression) {
+
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+	
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+  
+   /* you can have any number of case statements */
+   default : /* Optional */
+   statement(s);
+}
+```
+
+Structure of *nestedswitch* statement:
+
+```C
+switch(expression) {
+
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+	
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+  
+   /* you can have any number of case statements */
+   default : /* Optional */
+   statement(s);
+}
+```
