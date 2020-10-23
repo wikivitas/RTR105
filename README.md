@@ -548,21 +548,22 @@ switch(expression) {
 }
 ```
 
-Structure of *nestedswitch* statement:
+Structure of *nested switch* statement:
 
 ```C
-switch(expression) {
+switch(ch1) {
 
-   case constant-expression  :
-      statement(s);
-      break; /* optional */
-	
-   case constant-expression  :
-      statement(s);
-      break; /* optional */
-  
-   /* you can have any number of case statements */
-   default : /* Optional */
-   statement(s);
+   case 'A': 
+      printf("This A is part of outer switch" );
+		
+      switch(ch2) {
+         case 'A':
+            printf("This A is part of inner switch" );
+            break;
+         case 'B': /* case code */
+      }
+	  
+      break;
+   case 'B': /* case code */
 }
 ```
