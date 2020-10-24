@@ -574,11 +574,8 @@ switch(ch1) {
 
 ### **Ciklu operātori**
 
-Cikls `for`:
-![image](https://github.com/wikivitas/RTR105/blob/master/Images/for.jpg?raw=true)
+Cikls `for`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/for.jpg?raw=true)
 
-Cikls `while`:
-![image](https://github.com/wikivitas/RTR105/blob/master/Images/dwhile.jpg?raw=true)
+Cikls `while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/while.jpg?raw=true)
 
-Cikls `do...while`:
-![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
+Cikls `do...while`:![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
