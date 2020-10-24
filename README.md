@@ -11,6 +11,7 @@
 [07.10.2020](https://github.com/wikivitas/RTR105#07102020) - Datu tipi, manīgie, konstantes.</br>
 [12.10.2020](https://github.com/wikivitas/RTR105#12102020) - Operātoru veidi.</br>
 [21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
+[26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -567,3 +568,9 @@ switch(ch1) {
    case 'B': /* case code */
 }
 ```
+
+## 26.10.2020
+[Atgriezties uz saturu][1]
+
+### **Ciklu operātori**
+
