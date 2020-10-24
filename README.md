@@ -578,4 +578,4 @@ Cikls `for`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images
 
 Cikls `while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/while.jpg?raw=true)
 
-Cikls `do...while`:![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
+Cikls `do...while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
