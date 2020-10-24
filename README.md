@@ -503,14 +503,14 @@ Assignment operators supported by C language are as follows.
 
 ![image](https://www.tutorialspoint.com/cprogramming/images/decision_making.jpg)
 
-Structure of *if* statement:
+Structure of `if` statement:
 
 ```C
 if(boolean_expression) {
    /* statement(s) will execute if the boolean expression is true */
 }
 ```
-Structure of *if...else* statement:
+Structure of `if...else` statement:
 
 ```C
 if(boolean_expression) {
@@ -519,7 +519,7 @@ if(boolean_expression) {
    /* statement(s) will execute if the boolean expression is false */
 }
 ```
-Structure of *nested if* statement:
+Structure of `nested if` statement:
 
 ```C
 if( boolean_expression 1) {
@@ -530,7 +530,7 @@ if( boolean_expression 1) {
    }
 }
 ```
-Structure of *switch* statement:
+Structure of `switch` statement:
 
 ```C
 switch(expression) {
@@ -549,7 +549,7 @@ switch(expression) {
 }
 ```
 
-Structure of *nested switch* statement:
+Structure of `nested switch` statement:
 
 ```C
 switch(ch1) {
@@ -574,3 +574,11 @@ switch(ch1) {
 
 ### **Ciklu operātori**
 
+Cikls `for`:
+![image](/RTR105/Images/for.jpg)
+
+Cikls `while`:
+![image](/RTR105/Images/while.jpg)
+
+Cikls `do...while`:
+![image](/RTR105/Images/do_while.jpg)
