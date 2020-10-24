@@ -575,10 +575,10 @@ switch(ch1) {
 ### **Ciklu operātori**
 
 Cikls `for`:
-![image](/RTR105/Images/for.jpg)
+![image](https://github.com/wikivitas/RTR105/blob/master/Images/for.jpg?raw=true)
 
 Cikls `while`:
-![image](/RTR105/Images/while.jpg)
+![image](https://github.com/wikivitas/RTR105/blob/master/Images/dwhile.jpg?raw=true)
 
 Cikls `do...while`:
-![image](/RTR105/Images/do_while.jpg)
+![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
