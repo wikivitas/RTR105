@@ -12,6 +12,7 @@
 [12.10.2020](https://github.com/wikivitas/RTR105#12102020) - Operātoru veidi.</br>
 [21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
 [26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
+[28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -579,3 +580,8 @@ Cikls `for`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images
 Cikls `while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/while.jpg?raw=true)
 
 Cikls `do...while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master/Images/do_while.jpg?raw=true)
+
+## 28.10.2020
+[Atgriezties uz saturu][1]
+
+### **Funkcijas**
