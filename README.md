@@ -13,6 +13,7 @@
 [21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
 [26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
+[04.11.2020](https://github.com/wikivitas/RTR105#04112020) - Masīvi.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -585,3 +586,40 @@ Cikls `do...while`:</br>![image](https://github.com/wikivitas/RTR105/blob/master
 [Atgriezties uz saturu][1]
 
 ### **Funkcijas**
+
+The general form of a function is:
+
+`return_type function_name([ arg1_type arg1_name, ... ]) { code }`   
+
+```C
+#include <stdio.h> 
+  
+// An example function that takes two parameters 'x' and 'y' 
+// as input and returns max of two input numbers 
+int max(int x, int y) 
+{ 
+    if (x > y) 
+      return x; 
+    else
+      return y; 
+} 
+  
+// main function that doesn't receive any parameter and 
+// returns integer. 
+
+int main(void) 
+{ 
+    int a = 10, b = 20; 
+  
+    // Calling above function to find max of 'a' and 'b' 
+    int m = max(a, b); 
+  
+    printf("m is %d", m); 
+    return 0; 
+} 
+```
+
+## 04.11.2020
+[Atgriezties uz saturu][1]
+
+### **Masīvi**
