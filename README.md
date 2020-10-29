@@ -619,6 +619,8 @@ int main(void)
 } 
 ```
 
+[The link where a code fragment taken from](https://www.geeksforgeeks.org/functions-in-c/)
+
 ## 04.11.2020
 [Atgriezties uz saturu][1]
 
