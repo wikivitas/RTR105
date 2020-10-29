@@ -49,7 +49,7 @@
 
 **General commands**
 
-- `sudo <command name>`     - execute command as superuser
+- `sudo [command name]`     - execute command as superuser
 - `uname`     - to display information about the operating system
 - `whoami`    - to find out the type of user
 - `who`       - to find out authorization data of the current user
@@ -61,7 +61,7 @@
 
 - `../` or `~/` - the high part of the directory as part of the relative path
 - `pwd`       - to return an absolute (full) path
-- `cd <path name>`   - to print a name of the current directory
+- `cd [path name]`   - to print a name of the current directory
 - `cd ..`     - to move one directory up
 - `cd ~` or `cd /` or `cd`      - to move to the home directory
 - `ls`        - to view list of the contents of a directory
@@ -69,23 +69,23 @@
 - `ls -a`     - to view list of all the contents of a directory including hide files
 - `ls -la`    - to view the contents of the catalog with additional information
 - `ls -lt`    - to view the contents of the catalog with change data
-- `mkdir <directory name>`     - to create a directory
-- `rmdir <directory name>`     - to delete a directory
+- `mkdir [directory name]`     - to create a directory
+- `rmdir [directory name]`     - to delete a directory
 
 **Working with files**
 
-- `touch <file name>`          - to create a file
-- `echo <string> > <file name>`     - to add a string to the exist file
-- `echo <string> >> <file name>`     - to write a new string to the exist file
-- `cat <file name>`   - to show a content of the file
-- `hexdump -C <file name>`   - to show a content of the file by hexidecimal system
-- `mv <current file name> <new file name>` - to rename the exist file
-- `cp <current file directory> <new file directory>` - to copy the file
-- `rm <file name>`  - to delete the exist file
-- `rm *<path name>*` - to delete the file group
-- `rm -Rf *<path name>*` - to delete all the directory and its files
-- `whereis <command name>` - to display a message about the location of the source files
-- `chmod <attributes> <file name>` - to edit a permission attached to the exist file
+- `touch [file name]`          - to create a file
+- `echo [string] > [file name]`     - to add a string to the exist file
+- `echo [string] >> [file name]`     - to write a new string to the exist file
+- `cat [file name]`   - to show a content of the file
+- `hexdump -C [file name]`   - to show a content of the file by hexidecimal system
+- `mv [current file name] [new file name]` - to rename the exist file
+- `cp [current file directory] [new file directory]` - to copy the file
+- `rm [file name]`  - to delete the exist file
+- `rm *[path name]*` - to delete the file group
+- `rm -Rf *[path name]*` - to delete all the directory and its files
+- `whereis [command name]` - to display a message about the location of the source files
+- `chmod [attributes] [file name]` - to edit a permission attached to the exist file
 
 ## 23.09.2020
 [Atgriezties uz saturu][1]
@@ -99,7 +99,7 @@ GNU nano 2.9.7 teksta procesora interfeisa skrinšots:
 Lai izveidotu failu un pievienotu tekstu tai, vai izmainītu esošo faila teksta saturu, jāizmanto `nano` komandu:
 
 - `nano`  - to open GNU Nano editor and work with text in a temple file which could be saved as new file by filename
-- `nano <filename>`  - to attach name to the temple file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
+- `nano [filename]`  - to attach name to the temple file and open it with GNU Nano editor, or open the exist file with GNU Nano editor
 
 Bash skripta piemērs:
 ```Shell
