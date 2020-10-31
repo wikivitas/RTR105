@@ -9,10 +9,10 @@ void swap(int *a, int *b){
 
 int main(){
   int a,b,c; char s;
+  printf("Kartošanas secība(A - augoša, D - dilstoša): "); scanf("%s",&s);
   printf("Ievadiet, lūdzu, 1. skaitļu: ");scanf("%d",&a);
   printf("Ievadiet, lūdzu, 2. skaitļu: ");scanf("%d",&b);
   printf("Ievadiet, lūdzu, 3. skaitļu: ");scanf("%d",&c);
-  printf("Kartošanas secība(A - augoša, D - dilstoša): "); scanf("%s",&s);
   sort(a,b,c,s);
   return 0;
 }
