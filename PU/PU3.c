@@ -22,10 +22,10 @@ void sort(int a, int b, int c, char s){
   if(s==65){
 	while( ((a<b) && (b<c))!=1 ){
 		if(a>b){
-			swap(a,b);
+			swap(&a,&b);
 		}
 		if(b>c){
-			swap(b,c);
+			swap(&b,&c);
 		}
 	}
   }
@@ -33,10 +33,10 @@ void sort(int a, int b, int c, char s){
   if(s==68){
  	while( ((a>b) && (b>c))!=1 ){
 		if(a<b){
-			swap(a,b);
+			swap(&a,&b);
 		}
 		if(b<c){
-			swap(b,c);
+			swap(&b,&c);
 		}
 	}
   }
