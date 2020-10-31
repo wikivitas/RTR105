@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-void sort(int, int, int, char);
-void swap(int &a, int &b){
+void sort(char, char, char, char);
+void swap(char &a, char &b){
 	int temp=a;
 	a=b;
 	b=temp;
 }
 
 int main(){
-  int a,b,c; char s;
-  printf("Kartosanas seciba(A - augosa, D - dilstosa): "); scanf("%s",&s);
-  printf("Ievadiet, ludzu, 1. skaitlu: ");scanf("%d",&a);
-  printf("Ievadiet, ludzu, 2. skaitlu: ");scanf("%d",&b);
-  printf("Ievadiet, ludzu, 3. skaitlu: ");scanf("%d",&c);
+  char a,b,c,s;
+  printf("Kartošanas secība(A - augoša, D - dilstoša): "); scanf("%s",&s);
+  printf("Ievadiet, lūdzu, 1. burtu: ");scanf("%s",&a);
+  printf("Ievadiet, lūdzu, 2. burtu: ");scanf("%s",&b);
+  printf("Ievadiet, lūdzu, 3. burtu: ");scanf("%s",&c);
   sort(a,b,c,s);
   return 0;
 }
 
-void sort(int a, int b, int c, char s){
+void sort(char a, char b, char c, char s){
   
   if(s==65){
 	while( ((a<b) && (b<c))!=1 ){
@@ -41,7 +41,7 @@ void sort(int a, int b, int c, char s){
 	}
   }
   if((s!=65)&&(s!=68)){
-  	printf("Nav izveleta kartosanas seciba!\n\n");
+  	printf("Nav izvelēta kartošanas secība!\n\n");
   }
-  printf("Skaitlu sakartojums:\n%d\n%d\n%d\n",a,b,c);
+  printf("Burtu sakārtojums:\c%d\c%d\c%d\n",a,b,c);
 }
