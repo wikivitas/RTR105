@@ -41,7 +41,7 @@ void sort(int a, int b, int c, char s){
 	}
   }
   if((s!=65)&&(s!=68)){
-  	printf("Nav izvelēta kartošanas secība!\n\n");
+  	printf("Nav izvelēta kartošanas secība! Kārtošana netiks izpildīta!\n\n");
   }
   printf("Skaitļu sakārtojums:\n%d\n%d\n%d\n",a,b,c);
 }
