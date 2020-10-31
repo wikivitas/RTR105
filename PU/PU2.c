@@ -6,7 +6,7 @@ int main(){
 	char i=0; //skaitītāja mainīga
 	const char n=8; //izvadīto zīmes skaits (char tipam parasti ņēm 8 zīmes, jo char tipu mainīgo izmērs ir 1 b)
 	char b[n+1]; //skaitļu zīmes masīvs
-	printf("Ievadiet decimalo skaitlu: ");scanf("%d",&a);
+	printf("Ievadiet decimalo skaitlu: ");scanf("%c",&a);
 	do{
 		i++;b[i]=a%2;a=a>>1;
 	}while(a!=0);
