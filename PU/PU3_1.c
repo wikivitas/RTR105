@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void sort(char, char, char, char);
 void swap(char *a, char *b){
@@ -42,6 +43,7 @@ void sort(char a, char b, char c, char s){
   }
   if((s!=65)&&(s!=68)){
   	printf("Nav izvelēta kartošanas secība! Kārtošana netiks izpildīta!\n\n");
+	exit(0);
   }
   printf("Burtu sakārtojums:\n%c\n%c\n%c\n",a,b,c);
 }
