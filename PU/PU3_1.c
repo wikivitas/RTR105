@@ -2,7 +2,7 @@
 
 void sort(char, char, char, char);
 void swap(char &a, char &b){
-	int temp=a;
+	char temp=a;
 	a=b;
 	b=temp;
 }
