@@ -14,6 +14,7 @@
 [26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
 [04.11.2020](https://github.com/wikivitas/RTR105#04112020) - Masīvi.</br>
+</br>[Pielikums](https://github.com/wikivitas/RTR105#Pielikums) - Tabulas.</br>
 
 ## 16.09.2020
 [Atgriezties uz saturu][1]
@@ -625,3 +626,24 @@ int main(void)
 [Atgriezties uz saturu][1]
 
 ### **Masīvi**
+
+
+## Pielikums
+[Atgriezties uz saturu][1]
+
+### Tabulas
+
+**Tabula Nr. 1. Garumu un specifikatoru tabula
+
+|      |Specs |
+|**Length**|**d, i**|**u o x X**|**f F e E g G a A**|**c**|**s**|**p**|**n**|
+|:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|(none) |int	|unsigned int|	double|	int|	char\*|	void\*|	int\*|
+|**hh**	|signed char|	unsigned char| | | | |signed char\*|
+|**h**	|short int|	unsigned short int| | | | | short int\*|
+|**l**	|long int |	unsigned long int| | wint_t | wchar_t* | | long int\*|
+|**ll**	|long long int|	unsigned long long int|	| | | |	long long int\*|
+|**j**	|intmax_t |	uintmax_t| | | | | intmax_t\*|
+|**z**	|size_t	  |	size_t	| | | | | size_t\*|
+|**t**	|ptrdiff_t| ptrdiff_t| | | | | ptrdiff_t\*|
+|**L**	|	  | | long double| | | | |
