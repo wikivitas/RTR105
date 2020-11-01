@@ -641,8 +641,6 @@ int main(void)
 
 **Tabula Nr. 1. Garumu un specifikatoru tabula
 
-|      |Specs |
-|:---:|:---:|
 |**Length**|**d, i**|**u o x X**|**f F e E g G a A**|**c**|**s**|**p**|**n**|
 |:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |(none) |`int`	|`unsigned int`|	`double`|	`int`|	`char*`|	`void*`|	`int*`|
