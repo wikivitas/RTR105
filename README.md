@@ -637,9 +637,9 @@ int main(void)
 [Atgriezties uz saturu][1]
 
 ### Izvadu un ievadu formati
+[Atgriezties uz temu par datu tipiem](https://github.com/wikivitas/RTR105#07102020)
 
 **Tabula Nr. 1. Garumu un specifikatoru tabula**
-[Atgriezties uz temu par datu tipiem](https://github.com/wikivitas/RTR105#07102020)
 
 The output format synthax in C: `%[flags][width][.precision][length]specs`</br>
 The input format synthax in C: `%[*][width][length]specs`</br>
