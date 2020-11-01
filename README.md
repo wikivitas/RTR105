@@ -72,6 +72,7 @@
 - `ls -lt`    - to view the contents of the catalog with change data
 - `mkdir [directory name]`     - to create a directory
 - `rmdir [directory name]`     - to delete a directory
+- `PATH=$PATH`     - to add a working directory to system paths
 
 **Working with files**
 
@@ -296,6 +297,11 @@ int main(){
 [7]: https://latex.codecogs.com/gif.latex?2%5E7
 [8]: https://latex.codecogs.com/gif.latex?2%5E8
 [0]: https://latex.codecogs.com/gif.latex?2%5E0%20-%201
+
+The format synthax in C:
+
+`%[flags][width][.precision][length]specs`
+The [appendix of this repository](https://github.com/wikivitas/RTR105#Pielikums) contains several table, for example, **table of combinations of lengths and qualifiers** to make it easier to form the format for input and output.
 
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
@@ -636,14 +642,15 @@ int main(void)
 **Tabula Nr. 1. Garumu un specifikatoru tabula
 
 |      |Specs |
+|:---:|:---:|
 |**Length**|**d, i**|**u o x X**|**f F e E g G a A**|**c**|**s**|**p**|**n**|
 |:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|(none) |int	|unsigned int|	double|	int|	char\*|	void\*|	int\*|
-|**hh**	|signed char|	unsigned char| | | | |signed char\*|
-|**h**	|short int|	unsigned short int| | | | | short int\*|
-|**l**	|long int |	unsigned long int| | wint_t | wchar_t* | | long int\*|
-|**ll**	|long long int|	unsigned long long int|	| | | |	long long int\*|
-|**j**	|intmax_t |	uintmax_t| | | | | intmax_t\*|
-|**z**	|size_t	  |	size_t	| | | | | size_t\*|
-|**t**	|ptrdiff_t| ptrdiff_t| | | | | ptrdiff_t\*|
-|**L**	|	  | | long double| | | | |
+|(none) |`int`	|`unsigned int`|	`double`|	`int`|	`char*`|	`void*`|	`int*`|
+|**hh**	|`signed char`|	`unsigned char`| | | | |`signed char*`|
+|**h**	|`short int`|	`unsigned short int`| | | | | `short int*`|
+|**l**	|`long int` |	`unsigned long int`| | `wint_t` | `wchar_t*` | | `long int*`|
+|**ll**	|`long long int`|	`unsigned long long int`|	| | | |	`long long int*`|
+|**j**	|`intmax_t` |	`uintmax_t`| | | | | `intmax_t*`|
+|**z**	|`size_t`	  |	`size_t`	| | | | | `size_t*`|
+|**t**	|`ptrdiff_t`| `ptrdiff_t`| | | | | `ptrdiff_t*`|
+|**L**	|	  | | `long double`| | | | |
