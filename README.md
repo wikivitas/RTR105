@@ -655,7 +655,7 @@ int main(void)
 **Tabula Nr. 2. Flagi**
 
 |Flag|	Description|
-|:---:|:---:|
+|:---:|:---|
 |-|	Justify to the left by the specified width|
 |+|	Explicitly indicate the sign of a number, even for positive numbers|
 |(space)|	If the character is not displayed, then inserts a space before the displayed number|
@@ -665,6 +665,7 @@ int main(void)
 **Tabula Nr. 3. Bēgšanas sekvences.**
 
 |Sequence|Value|	Result|
+|:---:|:---:|:---|
 |`\a`|	0x07|	Sound signal|
 |`\b`|	0x08|	Carriage return one value back|
 |`\f`|	0x0c|	New page|
