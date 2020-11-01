@@ -639,6 +639,10 @@ int main(void)
 ### Izvadu un ievadu formati
 
 **Tabula Nr. 1. Garumu un specifikatoru tabula**
+[Atgriezties uz temu par datu tipiem](https://github.com/wikivitas/RTR105#07102020)
+
+The output format synthax in C: `%[flags][width][.precision][length]specs`</br>
+The input format synthax in C: `%[*][width][length]specs`</br>
 
 |Length|d, i|u o x X|f F e E g G a A|c|s|p|n|
 |:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
