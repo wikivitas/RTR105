@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+// struktūras deklarācija
 struct Abstract {
   int width, height;
 };
 
+// funkcijas deklarācija
 void calc(struct Abstract obj);
 
 int main() {
@@ -13,6 +15,7 @@ int main() {
   return 0;
 }
 
+// struktūras izsaukums
 void calc(struct Abstract obj){
   int res = obj.width * obj.height;
   printf("Result: %d",res);
