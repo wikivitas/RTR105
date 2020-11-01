@@ -298,11 +298,6 @@ int main(){
 [8]: https://latex.codecogs.com/gif.latex?2%5E8
 [0]: https://latex.codecogs.com/gif.latex?2%5E0%20-%201
 
-The format synthax in C:
-
-`%[flags][width][.precision][length]specs`
-The [appendix of this repository](https://github.com/wikivitas/RTR105#Pielikums) contains several table, for example, **table of combinations of lengths and qualifiers** to make it easier to form the format for input and output.
-
 | **Type** | **Storage size** | **Value range** |
 | :---: | :--- | :--- |
 |`char`|	1 byte | - ![image][7] to (![image][7] ![image][101]) *or* (![image][0]) to (![image][8] ![image][101]) |
@@ -314,6 +309,10 @@ The [appendix of this repository](https://github.com/wikivitas/RTR105#Pielikums)
 |`unsigned short`| 2 bytes |	(![image][0]) to (![image][16] ![image][101]) |
 |`long`|	8 bytes |	-![image][63] to (![image][63] ![image][101]) |
 |`unsigned long`|	8 bytes |	(![image][0]) to (![image][64] ![image][101]) |
+
+The output format synthax in C: `%[flags][width][.precision][length]specs`</br>
+The input format synthax in C: `%[*][width][length]specs`</br>
+The [appendix of this repository](https://github.com/wikivitas/RTR105#Pielikums) contains several table, for example, **table of combinations of lengths and qualifiers** to make it easier to form the format for input and output.
 
 To get the exact size of a type or a variable on a particular platform, you can use the sizeof operator. The expressions sizeof(type) yields the storage size of the object or type in bytes. Given below is an example to get the size of various type on a machine using different constant defined in limits.h header file −
 
@@ -637,11 +636,11 @@ int main(void)
 ## Pielikums
 [Atgriezties uz saturu][1]
 
-### Tabulas
+### Izvadu un ievadu formati
 
-**Tabula Nr. 1. Garumu un specifikatoru tabula
+**Tabula Nr. 1. Garumu un specifikatoru tabula**
 
-|**Length**|**d, i**|**u o x X**|**f F e E g G a A**|**c**|**s**|**p**|**n**|
+|Length|d, i|u o x X|f F e E g G a A|c|s|p|n|
 |:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |(none) |`int`	|`unsigned int`|	`double`|	`int`|	`char*`|	`void*`|	`int*`|
 |**hh**	|`signed char`|	`unsigned char`| | | | |`signed char*`|
@@ -652,3 +651,26 @@ int main(void)
 |**z**	|`size_t`	  |	`size_t`	| | | | | `size_t*`|
 |**t**	|`ptrdiff_t`| `ptrdiff_t`| | | | | `ptrdiff_t*`|
 |**L**	|	  | | `long double`| | | | |
+
+**Tabula Nr. 2. Flagi**
+
+|Flag|	Description|
+|:---:|:---:|
+|-|	Justify to the left by the specified width|
+|+|	Explicitly indicate the sign of a number, even for positive numbers|
+|(space)|	If the character is not displayed, then inserts a space before the displayed number|
+|#|	When used with o, x, or X, inserts 0, 0x, or 0X before the number. When used with the specifiers a, A, e, E, f, F, g, or G, inserts a decimal point even if there are no decimal places after it.|
+|0|	Inserts zeros when a width specifier is declared|
+
+**Tabula Nr. 3. Bēgšanas sekvences.**
+
+|Sequence|Value|	Result|
+|`\a`|	0x07|	Sound signal|
+|`\b`|	0x08|	Carriage return one value back|
+|`\f`|	0x0c|	New page|
+|`\n`|	0x0a|	Line feed, new line|
+|`\r`|	0x0d|	Carriage return|
+|`\t`|	0x09|	Tab|
+|`\v`|	0x0b|	Vertical tab|
+|`\"`|	0x22|	Double quote|
+|`\\`|	0x5с|	Backslash|
