@@ -3,12 +3,10 @@
 #include <string.h>
 
 int cstr(char *, char *);
-long long int fact(unsigned char);
 
 int main(){
-	char type[30];
-	unsigned char i;
-	printf("Ievadiet datu tipu(char,int,long long int): ");gets(type);
+	char type[15]; unsigned char i;
+	printf("Ievadiet datu tipu(char,int,long long): ");gets(type);
 	printf("Ievadiet veselu skaitļu: ");scanf("%hhu",&i);
 	if(i<=0){
 		printf("Skaitlis nevar būt mazāks par 0 vai vienāds ar 0!\n");exit(0);
@@ -34,8 +32,8 @@ int main(){
 		printf("%d\n",k);exit(0);
 	}
 
-	if(cstr(type,"long long int")==0){
-		long long int k=i*j;
+	if(cstr(type,"long long")==0){
+		long long k=i*j;
 		i--;j--;
 		while(j!=1){
 			k*=j;j--;
@@ -45,6 +43,7 @@ int main(){
 	else{
 		printf("Nepareizais datu tips! Faktoriāls netiks izreķināts!\n");exit(0);
 	}
+	return 0;
 }
 int cstr(char *a, char *b){
 	while(*a==*b){
@@ -59,3 +58,4 @@ int cstr(char *a, char *b){
 	else
 		return -1;
 }
+
