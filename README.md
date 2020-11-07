@@ -13,7 +13,7 @@
 [21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
 [26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
-[04.11.2020](https://github.com/wikivitas/RTR105#04112020) - Masīvi.</br>
+[09.11.2020](https://github.com/wikivitas/RTR105#09112020) - Masīvi. Pointeri.</br>
 </br>[Pielikums](https://github.com/wikivitas/RTR105#Pielikums) - Tabulas.</br>
 
 ## 16.09.2020
@@ -627,10 +627,10 @@ int main(void)
 
 [The link where a code fragment taken from](https://www.geeksforgeeks.org/functions-in-c/)
 
-## 04.11.2020
+## 09.11.2020
 [Atgriezties uz saturu][1]
 
-### **Masīvi**
+### **Masīvi. Pointeri.**
 
 
 ## Pielikums
