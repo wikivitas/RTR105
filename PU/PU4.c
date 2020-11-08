@@ -2,7 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-long long fact(unsigned char);
+long long fact(unsigned char i){
+   		unsigned char j=i-1; long long k=i*j; long long a=k;
+		while(j!=1){
+			j--;k*=j;
+		}
+		return k;
+}
 void na(){
     printf("Nav atbildes!\n");exit(0);
 }
@@ -32,12 +38,4 @@ int main(){
 	}
 	else na();
 	return 0;
-}
-
-long long fact(unsigned char i){
-   		unsigned char j=i-1; long long k=i*j; long long a=k;
-		while(j!=1){
-			j--;k*=j;
-		}
-		return k;
 }
