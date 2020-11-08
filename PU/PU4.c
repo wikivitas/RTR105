@@ -42,7 +42,7 @@ int main(){
 		printf("%lld\n",k);exit(0);
 	}
 	else{
-		printf("%s99",brd);exit(0);
+		printf("%s",brd);exit(0);
 	}
 	return 0;
 }
