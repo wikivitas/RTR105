@@ -46,6 +46,7 @@ int main(){
 	}
 	return 0;
 }
+
 int cstr(char* a, char* b){
 	while(*a==*b){
 		if(*a=='\0' || *b =='\0') break;
