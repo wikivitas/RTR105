@@ -15,25 +15,25 @@ int main(){
 
 	if(cstr(type,"char")==0){
 		char k=i*(i-1);
-        for(j=i-2;j!=1;j--){
-            k*=j;
-        }
+        	for(j=i-2;j!=1;j--){
+            		k*=j;
+        	}
 		printf("%hhi\n",k);exit(0);
 	}
 
 	if(cstr(type,"int")==0){
 		int k=i*(i-1);
-        for(j=i-2;j!=1;j--){
-            k*=j;
-        }
+        	for(j=i-2;j!=1;j--){
+            		k*=j;
+        	}
 		printf("%d\n",k);exit(0);
 	}
 
 	if(cstr(type,"long long")==0){
 		long long k=i*(i-1);
-        for(j=i-2;j!=1;j--){
-            k*=j;
-        }
+        	for(j=i-2;j!=1;j--){
+            		k*=j;
+        	}
 		printf("%lld\n",k);exit(0);
 	}
 	else{
