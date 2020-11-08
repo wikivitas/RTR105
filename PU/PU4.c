@@ -3,7 +3,7 @@
 #include <string.h>
 
 long long fact(unsigned char i){
-   		unsigned char j=i-1; long long k=i*j; long long a=k;
+   		unsigned char j=i-1; long long k=i*j;
 		while(j!=1){
 			j--;k*=j;
 		}
