@@ -24,18 +24,18 @@ int main(){
 	printf("%hhu! = ",i); 
 	if(strcmp(type,"char\n")==0){
         	char c=i*(i-1);char k=fact(i);
-        	if(k<c) na(); printf("%hhi\n",k);exit(0);
+        	if(k<c) na(&i); printf("%hhi\n",k);exit(0);
 	}
 
 	if(strcmp(type,"int\n")==0){
         	int c=i*(i-1);int k=fact(i);
-        	if(k<c) na(); printf("%d\n",k);exit(0);
+        	if(k<c) na(&i); printf("%d\n",k);exit(0);
 	}
 
 	if(strcmp(type,"long long\n")==0){
         	long long c=i*(i-1);long long k=fact(i);
-        	if(k<c) na(); printf("%lld\n",k);exit(0);
+        	if(k<c) na(&i); printf("%lld\n",k);exit(0);
 	}
-	else na();
+	else na(&i);
 	return 0;
 }
