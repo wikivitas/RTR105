@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-long long fact(unsigned char i){
+size_t fact(unsigned char i){
    		unsigned char j=i-1; long long k=i*j;
 		while(j--!=1){
 			k*=j;
@@ -11,7 +11,7 @@ long long fact(unsigned char i){
 }
 
 void na(unsigned char* i){
-    printf("\rNav atbildes! Faktoriālu no skaitļa %hhu nevar aprēķināt!\n",*i);exit(0);
+	printf("\rNav atbildes! Faktoriālu no skaitļa %hhu nevar aprēķināt!\n",*i);exit(0);
 }
 
 int main(){
