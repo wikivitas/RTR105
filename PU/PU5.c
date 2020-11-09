@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-long long fact(unsigned char i){
+size_t fact(unsigned char i){
 	unsigned char j;long long k=i*(i-1);
 	for(j=i-2;j!=1;j--){
-        k*=j;	
+        	k*=j;	
 	}
 	return k;
 }
