@@ -9,8 +9,8 @@ long long fact(unsigned char i){
 		}
 		return k;
 }
-void na(){
-    printf("Nav atbildes!\n");exit(0);
+void na(unsigned char* i){
+    printf("\rNav atbildes! Faktoriālu no skaitļa %hhu nevar aprēķināt!\n",*i);exit(0);
 }
 
 int main(){
