@@ -633,7 +633,7 @@ int main(void)
 ### **Masīvi. Pointeri.**
 
 ![image](https://www.2braces.com/images/pointer.svg)
-![image](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/MemoryAddressContent.png)
+![image](https://github.com/wikivitas/RTR105/blob/master/Images/MemoryAddressContent.png?raw=true)
 ![image](https://beginnersbook.com/wp-content/uploads/2014/01/c-arrays.png)
 
 ## Pielikums
