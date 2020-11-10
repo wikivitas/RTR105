@@ -632,6 +632,9 @@ int main(void)
 
 ### **Masīvi. Pointeri.**
 
+![image](https://www.2braces.com/images/pointer.svg)
+![image](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/MemoryAddressContent.png)
+![image](https://beginnersbook.com/wp-content/uploads/2014/01/c-arrays.png)
 
 ## Pielikums
 [Atgriezties uz saturu][1]
@@ -644,17 +647,17 @@ int main(void)
 The output format synthax in C: `%[flags][width][.precision][length]specs`</br>
 The input format synthax in C: `%[*][width][length]specs`</br>
 
-|Length|d, i|u o x X|f F e E g G a A|c|s|p|n|
-|:---   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|(none) |`int`	|`unsigned int`|	`double`|	`int`|	`char*`|	`void*`|	`int*`|
-|**hh**	|`signed char`|	`unsigned char`| | | | |`signed char*`|
-|**h**	|`short int`|	`unsigned short int`| | | | | `short int*`|
-|**l**	|`long int` |	`unsigned long int`| | `wint_t` | `wchar_t*` | | `long int*`|
-|**ll**	|`long long int`|	`unsigned long long int`|	| | | |	`long long int*`|
-|**j**	|`intmax_t` |	`uintmax_t`| | | | | `intmax_t*`|
-|**z**	|`size_t`	  |	`size_t`	| | | | | `size_t*`|
-|**t**	|`ptrdiff_t`| `ptrdiff_t`| | | | | `ptrdiff_t*`|
-|**L**	|	  | | `long double`| | | | |
+|Length	|d, i		|u o x X		 |f F e E g G a A|c		|s		|p	|n|
+|:---   |:---:		|:---:			 |:---:		 |:---:		|:---:		|:---:	|:---:|
+|(none) |`int`		|`unsigned int`		 |`float`	 |`int`		|`char*`	|`void*`|`int*`|
+|**hh**	|`signed char`	|`unsigned char`	 | 		 | 		| 		| 	|`signed char*`|
+|**h**	|`short int`	|`unsigned short int`	 | 		 | 		| 		| 	| `short int*`|
+|**l**	|`long int` 	|`unsigned long int`	 |`double` 	 | `wint_t` 	| `wchar_t*` 	| 	| `long int*`|
+|**ll**	|`long long int`|`unsigned long long int`|		 | 		| 		| 	|	`long long int*`|
+|**j**	|`intmax_t` 	|`uintmax_t`		 | 		 | 		| 		| 	| `intmax_t*`|
+|**z**	|`size_t`	|`size_t`		 |	 	 |		| 		| 	| `size_t*`|
+|**t**	|`ptrdiff_t`	|`ptrdiff_t`		 |		 | 		| 		| 	| `ptrdiff_t*`|
+|**L**	|	  	| 			 | `long double` | 		| 		| 	| |
 
 **Tabula Nr. 2. Flagi**
 
