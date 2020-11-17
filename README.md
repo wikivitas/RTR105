@@ -13,7 +13,8 @@
 [21.10.2020](https://github.com/wikivitas/RTR105#21102020) - Nosacījumu operatori.</br>
 [26.10.2020](https://github.com/wikivitas/RTR105#26102020) - Ciklu operātori.</br>
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
-[09.11.2020](https://github.com/wikivitas/RTR105#09112020) - Masīvi. Pointeri.</br>
+[09.11.2020](https://github.com/wikivitas/RTR105#09112020) - Masīvi. Norādes.</br>
+[11.11.2020](https://github.com/wikivitas/RTR105#11112020) - Simbolu rindas.</br>
 </br>[Pielikums](https://github.com/wikivitas/RTR105#Pielikums) - Tabulas.</br>
 
 ## 16.09.2020
@@ -630,11 +631,53 @@ int main(void)
 ## 09.11.2020
 [Atgriezties uz saturu][1]
 
-### **Masīvi. Pointeri.**
+### **Masīvi. Norādes.**
 
 ![image](https://www.2braces.com/images/pointer.svg)
 ![image](https://github.com/wikivitas/RTR105/blob/master/Images/MemoryAddressContent.png?raw=true)
 ![image](https://beginnersbook.com/wp-content/uploads/2014/01/c-arrays.png)
+
+## 11.11.2020
+[Atgriezties uz saturu][1]
+
+### **Simbolu rindas.**
+
+C valodā rinda ir secība, kas beigās ar `\0`:
+
+```C
+char c[] = "c rinda";
+```
+\[c]\[]\[r]\[i]\[n]\[d]\[a]\[\0]
+
+**Rindas definēšana**
+
+```C
+char s[5];
+```
+
+|s\[0]|s\[1]|s\[2]|s\[3]|s\[4]|
+|:---|:---|:---|:---|:---|
+||||||
+
+**Rindas iniciālizācija**
+
+```C
+char c[] = "abcd";
+char c[50] = "abcd";
+char c[] = {'a', 'b', 'c', 'd', '\0'};
+char c[5] = {'a', 'b', 'c', 'd', '\0'};
+```
+
+**Rindas piešķiršana**
+
+Rindam, ka arī jebkādām masīvām, nedrikst piešķirt vērtību pēc tas definēšanas:
+
+```C
+char c[100];
+c = "C programming";  // Error! array type is not assignable.
+```
+
+**Vērtību iegūšana no lietotāja**
 
 ## Pielikums
 [Atgriezties uz saturu][1]
