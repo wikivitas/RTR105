@@ -633,6 +633,27 @@ int main(void)
 
 ### **Masīvi. Norādes.**
 
+**Norādes definēšana**
+
+`[typename]* [variable_1], [variable_2],...,[variable_n]`
+`[typename] *[variable_1], [variable_2],...,[variable_n]`
+
+\[variable_1] būs norādes mainīga, parējas mainīgas ***nebūs norādes***.
+
+Lietošanas piemērs:
+
+```C
+int* pc, c;
+c = 5;
+pc = &c;
+printf("%d", *pc);   // Output: 5
+```
+
+Izpildes rezultātā c vērtībam ir piešķirta vērtība 5, pc norādes vērtībai bija piēšķirta ***c adrese***.</br>
+Printf paradās ekranā 5, jo mēs ***novirzējām*** pc norādes vērtībā. </br>
+Tādējādi, novirzējot norādes vērtību, ir iespēja iegūt ***vērtību pēc adreses***. </br>
+
+
 ![image](https://www.2braces.com/images/pointer.svg)
 ![image](https://github.com/wikivitas/RTR105/blob/master/Images/MemoryAddressContent.png?raw=true)
 ![image](https://beginnersbook.com/wp-content/uploads/2014/01/c-arrays.png)
@@ -647,7 +668,7 @@ C valodā rinda ir secība, kas beigās ar `\0`:
 ```C
 char c[] = "c rinda";
 ```
-\[c]\[]\[r]\[i]\[n]\[d]\[a]\[\0]
+\[c]\[ ]\[r]\[i]\[n]\[d]\[a]\[\0]
 
 **Rindas definēšana**
 
@@ -657,7 +678,7 @@ char s[5];
 
 |s\[0]|s\[1]|s\[2]|s\[3]|s\[4]|
 |:---|:---|:---|:---|:---|
-||||||
+| | | | | |
 
 **Rindas iniciālizācija**
 
