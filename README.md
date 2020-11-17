@@ -635,8 +635,8 @@ int main(void)
 
 **Norādes definēšana**
 
-`[typename]* [variable_1], [variable_2],...,[variable_n]`
-`[typename] *[variable_1], [variable_2],...,[variable_n]`
+1. veids: `[typename]* [variable_1], [variable_2],...,[variable_n]`</br>
+2. veids: `[typename] *[variable_1], [variable_2],...,[variable_n]`
 
 \[variable_1] būs norādes mainīga, parējas mainīgas ***nebūs norādes***.
 
@@ -653,10 +653,20 @@ Izpildes rezultātā c vērtībam ir piešķirta vērtība 5, pc norādes vērt�
 Printf paradās ekranā 5, jo mēs ***novirzējām*** pc norādes vērtībā. </br>
 Tādējādi, novirzējot norādes vērtību, ir iespēja iegūt ***vērtību pēc adreses***. </br>
 
+```C
+int* pc, c;
+c = 5;
+pc = &c;
+c = 1;
+printf("%d", c);    // Output: 1
+printf("%d", *pc);  // Ouptut: 1
+```
 
 ![image](https://www.2braces.com/images/pointer.svg)
 ![image](https://github.com/wikivitas/RTR105/blob/master/Images/MemoryAddressContent.png?raw=true)
 ![image](https://beginnersbook.com/wp-content/uploads/2014/01/c-arrays.png)
+
+[Par pointeriem](https://www.programiz.com/c-programming/c-pointers)
 
 ## 11.11.2020
 [Atgriezties uz saturu][1]
@@ -699,6 +709,8 @@ c = "C programming";  // Error! array type is not assignable.
 ```
 
 **Vērtību iegūšana no lietotāja**
+
+[Par rindam](https://www.programiz.com/c-programming/c-strings)
 
 ## Pielikums
 [Atgriezties uz saturu][1]
