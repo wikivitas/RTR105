@@ -15,7 +15,7 @@
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
 [09.11.2020](https://github.com/wikivitas/RTR105#09112020) - Masīvi. Norādes.</br>
 [11.11.2020](https://github.com/wikivitas/RTR105#11112020) - Simbolu rindas.</br>
-[23.11.2020](https://github.com/wikivitas/RTR105#23112020) - Simbolu rindas.</br>
+[23.11.2020](https://github.com/wikivitas/RTR105#23112020) - Darbs ar failiem.</br>
 </br>[Pielikums](https://github.com/wikivitas/RTR105#Pielikums) - Tabulas.</br>
 
 ## 16.09.2020
@@ -767,7 +767,28 @@ int main () {
   return 0;
 }
 ```
-
+```C
+/* fgetc example: money counter */
+#include <stdio.h>
+int main ()
+{
+  FILE * pFile;
+  int c;
+  int n = 0;
+  pFile=fopen ("myfile.txt","r");
+  if (pFile==NULL) perror ("Error opening file");
+  else
+  {
+    do {
+      c = fgetc (pFile);
+      if (c == '$') n++;
+    } while (c != EOF);
+    fclose (pFile);
+    printf ("The file contains %d dollar sign characters ($).\n",n);
+  }
+  return 0;
+}
+```
 ## Pielikums
 [Atgriezties uz saturu][1]
 
