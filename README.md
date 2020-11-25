@@ -15,6 +15,7 @@
 [28.10.2020](https://github.com/wikivitas/RTR105#28102020) - Funkcijas.</br>
 [09.11.2020](https://github.com/wikivitas/RTR105#09112020) - Masīvi. Norādes.</br>
 [11.11.2020](https://github.com/wikivitas/RTR105#11112020) - Simbolu rindas.</br>
+[23.11.2020](https://github.com/wikivitas/RTR105#23112020) - Simbolu rindas.</br>
 </br>[Pielikums](https://github.com/wikivitas/RTR105#Pielikums) - Tabulas.</br>
 
 ## 16.09.2020
@@ -711,6 +712,61 @@ c = "C programming";  // Error! array type is not assignable.
 **Vērtību iegūšana no lietotāja**
 
 [Par rindam](https://www.programiz.com/c-programming/c-strings)
+
+/* fwrite example : write buffer */
+#include <stdio.h>
+
+## 23.11.2020
+[Atgriezties uz saturu][1]
+
+### Darbs ar failiem
+
+```C
+int main ()
+{
+  FILE * pFile;
+  char buffer[] = { 'x' , 'y' , 'z' };
+  pFile = fopen ("myfile.bin", "wb");
+  fwrite (buffer , sizeof(char), sizeof(buffer), pFile);
+  fclose (pFile);
+  return 0;
+}
+```
+```C
+/* fread example: read an entire file */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+  FILE * pFile;
+  long lSize;
+  char * buffer;
+  size_t result;
+
+  pFile = fopen ( "myfile.bin" , "rb" );
+  if (pFile==NULL) {fputs ("File error",stderr); exit (1);}
+
+  // obtain file size:
+  fseek (pFile , 0 , SEEK_END);
+  lSize = ftell (pFile);
+  rewind (pFile);
+
+  // allocate memory to contain the whole file:
+  buffer = (char*) malloc (sizeof(char)*lSize);
+  if (buffer == NULL) {fputs ("Memory error",stderr); exit (2);}
+
+  // copy the file into the buffer:
+  result = fread (buffer,1,lSize,pFile);
+  if (result != lSize) {fputs ("Reading error",stderr); exit (3);}
+
+  /* the whole file is now loaded in the memory buffer. */
+
+  // terminate
+  fclose (pFile);
+  free (buffer);
+  return 0;
+}
+```
 
 ## Pielikums
 [Atgriezties uz saturu][1]
