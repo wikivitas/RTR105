@@ -767,6 +767,7 @@ int main () {
   return 0;
 }
 ```
+
 ```C
 /* fgetc example: money counter */
 #include <stdio.h>
